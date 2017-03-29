@@ -1,0 +1,20 @@
+{
+  "name": "resbaz",
+  "authors": [],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet-map": "^1.2.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24"
+  }
+}

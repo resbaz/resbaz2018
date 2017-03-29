@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Changes the image and title displayed when link is share in facebook -->
+  <meta property="og:image" content="http://resbaz2017.com/"/>
+  <meta property="og:title" content=""/>
+  <meta property="og:description" content=""/>
+  <meta property="og:url" content="http://resbaz2017.com//"/>
+  <meta property="og:site_name" content="ResBaz 2017"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content=""/>
+
+  <title>Research Bazaar ????</title>
+
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="/components/extra-icons.html">
+  <link rel="import" href="/components/gitter-chat.html">
+  <link rel="import" href="/components/remote-markdown.html">
+  <link rel="import" href="/components/resbaz-locations.html">
+  <link rel="import" href="/bower_components/paper-button/paper-button.html">
+  <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="/bower_components/iron-icons/communication-icons.html">
+  <link rel="import" href="/bower_components/iron-iconset-svg/iron-iconset-svg.html">
+  <link rel="import" href="/bower_components/app-layout/app-layout.html">
+  <link rel="import" href="/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="/components/front-page-style.html">
+</head>
+<body>
+  <app-header condenses fixed
+      effects="waterfall resize-snapped-title fade-background"
+      effects-config='{"resize-snapped-title": {"startsAt": 0.8, "duration": "100ms"}, "fade-background": {"startsAt": 0.8, "endsAt": 0.9}}'>
+    <app-toolbar>
+      <div condensed-title><img class="nav-logo" src="/img/resbaz_logos/ResBaz_transparent_cropped.png"></div>
+    </app-toolbar>
+    <div main-title>
+      <h1>RESEARCH BAZAAR, 2017</h1>
+      <h2>Skills Sharing - Digital Literacy - Research Collaboration</h2>
+      <div class="actions">
+        <a href="#locations">
+          <paper-button raised>Come Join Us</paper-button>
+        </a>
+      </div>
+    </div>
+  </app-header>
+  <article>
+    <section id="about">
+      <remote-markdown url="/about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="locations">
+      <h1>Locations</h1>
+      <resbaz-locations></resbaz-locations>
+      <p class="center">All Research Bazaar events respect our <a href="https://resbazblog.wordpress.com/code-of-conduct/">Code of Conduct</a>.</p>
+    </section>
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact ResBaz</h1>
+      <div class="icons">
+        <a title="Email ResBaz" href="mail:research.bazaar@gmail.com"><paper-icon-button icon="communication:email"></paper-icon-button></a>
+        <a title="@ResBaz on Twitter" href="https://twitter.com/resbaz"><paper-icon-button icon="extra-icons:twitter"></paper-icon-button></a>
+      </div>
+    </section>
+  </article>
+  <footer>
+    Copyright &copy; Research Platform Services, University of Melbourne, 2017
+  </footer>
+  <!-- Chat -->
+  <gitter-chat room="resbaz/resbaz"></gitter-chat>
+</body>
+</html>

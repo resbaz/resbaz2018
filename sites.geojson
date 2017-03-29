@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[174.768969,-36.853137]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/auckland'>Auckland</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[153.028357,-27.477418]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/brisbane'>Brisbane</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[172.58246898651123, -43.52363591729539]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/christchurch'>Christchurch</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[-79.0102536,-2.9008206]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/cuenca-es'>Cuenca</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[170.513132,-45.863208]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/dunedin'>Dunedin</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[147.335652, -42.886183]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/hobart'>Hobart</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[144.96289,-37.79901]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='http://melbourne.resbaz.edu.au/resbaz2017'>Melbourne</a>"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[10.723284, 59.939673]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/oslo'>Oslo</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[175.614064, -40.385087]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/palmerston-north'>Palmerston North</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[115.895357, -32.005840]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/perth'>Perth</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[151.201333,-33.883833]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='/sydney'>Sydney</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[-110.950188, 32.231893]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/tucson'>Tucson</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[-123.112054, 49.284690]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='http://www.lib.sfu.ca/about/branches-depts/rc/networking/research-bazaar'>Vancouver</a>"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[174.768367,-41.289287]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://2017.resbaz.com/wellington'>Wellington</a>"
+            }
+        }
+    ]
+}

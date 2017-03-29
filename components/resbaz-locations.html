@@ -1,0 +1,104 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/3.0.14/turf.min.js"></script>
+<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="/bower_components/leaflet-map/leaflet-map.html">
+
+<dom-module id="resbaz-locations">
+  <template>
+    <style>
+    leaflet-map {
+      height: 400px;
+    }
+    a {
+      color: var(--accent-color);
+    }
+    #location-list {
+      text-align: center;
+      padding: 0;
+      list-style-type: none;
+      list-style-position: outside;
+    }
+    </style>
+    <iron-ajax auto url="/sites.geojson" last-response="{{geojson}}">
+    </iron-ajax>
+
+    <ul id="location-list">
+    </ul>
+    <leaflet-map id="map" fit-to-markers>
+
+        <leaflet-tilelayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" max-zoom="19">
+              Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contr.,
+              <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,
+              Imagery © <a href="http://mapbox.com">Mapbox</a>
+        </leaflet-tilelayer>
+
+        <leaflet-geojson id="map-data" data="[[geojson]]"></leaflet-geojson>
+    </leaflet-map>
+  </template>
+  <script>
+  L.Icon.Default.imagePath = '/bower_components/leaflet/dist/images';
+  var defaultPosition = {
+    "type": "Point",
+    "coordinates": [ 149.1300, -35.2809 ]
+  };
+  Polymer({
+    is: 'resbaz-locations',
+    properties: {
+      "geojson": Object,
+      "position": {
+        type: Object,
+        value: defaultPosition
+      }
+    },
+    observers: [
+      '_updateLocations(geojson, position)'
+    ],
+    ready: function(details) {
+      var self = this;
+      navigator.geolocation.getCurrentPosition(
+        function(position) {
+          self.set('position', {
+            "type": "Point",
+            "coordinates": [
+              position.coords.longitude,
+              position.coords.latitude
+            ]
+          });
+        },
+        function(err) {
+          self.set('position', defaultPosition);
+        },
+        {
+          enableHighAccuracy: false
+        }
+      );
+    },
+    _updateLocations: function() {
+      var locationListEl = this.$['location-list'];
+      var locations = this.geojson.features;
+
+      // Sort by distance
+      if (this.position) {
+        var pos = this.position;
+        var distanceTo = function(feature) {
+          return turf.distance(pos, feature);
+        };
+        // sort features by distance
+        locations.sort(function(a, b) {
+          return distanceTo(a) - distanceTo(b);
+        });
+      }
+
+      // Update list
+      Polymer.dom(locationListEl).children.forEach(function(child) {
+        Polymer.dom(locationListEl).removeChild(child);
+      });
+      locations.forEach(function(location) {
+        var liEl = document.createElement('li');
+        Polymer.dom(liEl).innerHTML = location.properties.details;
+        Polymer.dom(locationListEl).appendChild(liEl);
+      });
+    }
+  });
+  </script>
+</dom-module>
