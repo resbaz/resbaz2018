@@ -1,0 +1,29 @@
+
+
+<style is="custom-style">
+aside.gitter-chat-embed {
+  z-index: 10000;
+}
+</style>
+
+<dom-module id="gitter-chat">
+  <template>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script>
+  </template>
+  <script>
+    Polymer({
+      is: 'gitter-chat',
+      properties: {
+        "room": {
+          type: String
+        }
+      },
+      ready: function() {
+        var r = this.room;
+        ((window.gitter = {}).chat = {}).options = {
+          room: r
+        };
+      }
+    });
+  </script>
+</dom-module>
