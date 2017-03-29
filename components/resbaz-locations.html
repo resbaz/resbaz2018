@@ -82,7 +82,6 @@
       var deepClone = function(obj) { return JSON.parse(JSON.stringify(obj)); };
       var altered = deepClone(geojson);
       geojson.features.forEach(function(feature) {
-        console.log(feature);
         if (feature.geometry['type'] == 'Point') {
           var c = deepClone(feature);
           c.geometry.coordinates[0] =
