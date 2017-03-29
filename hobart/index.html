@@ -11,10 +11,13 @@
 
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
+  <link rel="import" href="../components/simple-columns.html">
   <link rel="import" href="../components/contact-icons.html">
   <link rel="import" href="../components/remote-markdown.html">
   <link rel="import" href="../components/venue-map.html">
   <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
+  <link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-group.html">
   <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
   <link rel="import" href="../bower_components/app-layout/app-layout.html">
   <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
@@ -48,6 +51,20 @@
     <section id="venue">
       <h1>Venue</h1>
       <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+    </section>
+    <hr/>
+    <section id="schedule">
+      <h1>Schedule</h1>
+      <remote-markdown url="software_carpentry.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+      <h2>Day 3: Community Day</h2>
+      <simple-columns>
+				<p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
+        <remote-markdown url="community_day_options.md">
+          <div class="markdown-html"></div>
+        </remote-markdown>
+      </simple-columns>
     </section>
     <hr/>
     <section id="come-along">

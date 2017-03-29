@@ -1,0 +1,21 @@
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<dom-module id="simple-columns">
+  <template>
+    <style>
+    :host {
+      @apply --layout-horizontal;
+    }
+    :host ::content > * {
+      @apply --layout-flex;
+      margin: 0 1em;
+    }
+    </style>
+    <content></content>
+  </template>
+  <script>
+  Polymer({
+    is: 'simple-columns'
+  });
+  </script>
+</dom-module>
