@@ -1,6 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/3.0.14/turf.min.js"></script>
-<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
-<link rel="import" href="/bower_components/leaflet-map/leaflet-map.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/leaflet-map/leaflet-map.html">
 
 <dom-module id="resbaz-locations">
   <template>
@@ -18,7 +18,7 @@
       list-style-position: outside;
     }
     </style>
-    <iron-ajax auto url="/sites.geojson" last-response="{{geojson}}">
+    <iron-ajax auto url="../sites.geojson" last-response="{{geojson}}">
     </iron-ajax>
 
     <ul id="location-list">
@@ -36,7 +36,7 @@
     </leaflet-map>
   </template>
   <script>
-  L.Icon.Default.imagePath = '/bower_components/leaflet/dist/images';
+  L.Icon.Default.imagePath = '../bower_components/leaflet/dist/images';
   var defaultPosition = {
     "type": "Point",
     "coordinates": [ 149.1300, -35.2809 ]
