@@ -16,34 +16,35 @@
   <meta property="og:type" content="website"/>
   <meta property="og:locale" content=""/>
 
-  <title>Research Bazaar ????</title>
+  <title>ResBaz Hobart ????</title>
 
-  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-  <link rel="import" href="components/extra-icons.html">
-  <link rel="import" href="components/gitter-chat.html">
-  <link rel="import" href="components/remote-markdown.html">
-  <link rel="import" href="components/resbaz-locations.html">
-  <link rel="import" href="bower_components/paper-button/paper-button.html">
-  <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
-  <link rel="import" href="bower_components/iron-icons/communication-icons.html">
-  <link rel="import" href="bower_components/app-layout/app-layout.html">
-  <link rel="import" href="bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+  <link rel="import" href="../components/extra-icons.html">
+  <link rel="import" href="../components/gitter-chat.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/iron-icons/communication-icons.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
 
-  <link rel="import" href="components/resbaz-header.html">
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
   <style is="custom-style">
   resbaz-header {
-    --header-height: 100vh;
-    --header-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://farm1.staticflickr.com/710/22294999764_cc57e2af25_z.jpg)
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/hobart_bg.jpg);
   }
   </style>
 </head>
 <body>
-  <resbaz-header title="Research Bazaar">
-    <h1>RESEARCH BAZAAR, 2017</h1>
-    <h2>Skills Sharing - Digital Literacy - Research Collaboration</h2>
+  <resbaz-header title="ResBaz Hobart">
+    <h1>Hobart</h1>
+    <h2>31 January - 2 February, 2017</h2>
     <div class="actions">
-      <a href="#locations">
+      <a href="#venue">
         <paper-button raised>Come Join Us</paper-button>
       </a>
     </div>
@@ -55,15 +56,14 @@
       </remote-markdown>
     </section>
     <hr/>
-    <section id="locations">
-      <h1>Locations</h1>
-      <resbaz-locations></resbaz-locations>
-      <p class="center">All Research Bazaar events respect our <a href="https://resbazblog.wordpress.com/code-of-conduct/">Code of Conduct</a>.</p>
+    <section id="venue">
+      <h1>Venue</h1>
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
     </section>
     <hr/>
     <section id="contact-us">
       <h1>Contact ResBaz</h1>
-      <div class="icons">
+      <div class="center">
         <a title="Email ResBaz" href="mail:research.bazaar@gmail.com"><paper-icon-button icon="communication:email"></paper-icon-button></a>
         <a title="@ResBaz on Twitter" href="https://twitter.com/resbaz"><paper-icon-button icon="extra-icons:twitter"></paper-icon-button></a>
       </div>

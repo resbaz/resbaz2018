@@ -23,7 +23,7 @@
 
     <ul id="location-list">
     </ul>
-    <leaflet-map id="map" fit-to-markers>
+    <leaflet-map id="map" longitude="[[_longitude(position)]]" latitude="[[_latitude(position)]]" zoom="[[zoom]]" world-copy-jump>
 
         <leaflet-tilelayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" max-zoom="19">
@@ -32,11 +32,10 @@
               Imagery © <a href="http://mapbox.com">Mapbox</a>
         </leaflet-tilelayer>
 
-        <leaflet-geojson id="map-data" data="[[geojson]]"></leaflet-geojson>
+        <leaflet-geojson id="map-data" data="[[_duplicateMarkers(geojson)]]"></leaflet-geojson>
     </leaflet-map>
   </template>
   <script>
-  L.Icon.Default.imagePath = 'bower_components/leaflet/dist/images';
   var defaultPosition = {
     "type": "Point",
     "coordinates": [ 149.1300, -35.2809 ]
@@ -48,12 +47,18 @@
       "position": {
         type: Object,
         value: defaultPosition
+      },
+      "zoom": {
+        type: Number,
+        value: 2
       }
     },
     observers: [
       '_updateLocations(geojson, position)'
     ],
     ready: function(details) {
+      L.Icon.Default.imagePath =
+        this.resolveUrl('../bower_components/leaflet/dist/images');
       var self = this;
       navigator.geolocation.getCurrentPosition(
         function(position) {
@@ -72,6 +77,27 @@
           enableHighAccuracy: false
         }
       );
+    },
+    _duplicateMarkers: function(geojson) {
+      var deepClone = function(obj) { return JSON.parse(JSON.stringify(obj)); };
+      var altered = deepClone(geojson);
+      geojson.features.forEach(function(feature) {
+        console.log(feature);
+        if (feature.geometry['type'] == 'Point') {
+          var c = deepClone(feature);
+          c.geometry.coordinates[0] =
+            c.geometry.coordinates[0] +
+            (c.geometry.coordinates[0] < 0 ? 360 : -360);
+          altered.features.push(c);
+        }
+      });
+      return altered;
+    },
+    _longitude: function(feature) {
+      return feature.coordinates[0];
+    },
+    _latitude: function(feature) {
+      return feature.coordinates[1];
     },
     _updateLocations: function() {
       var locationListEl = this.$['location-list'];

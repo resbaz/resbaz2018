@@ -1,0 +1,53 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/3.0.14/turf.min.js"></script>
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/leaflet-map/leaflet-map.html">
+
+<dom-module id="venue-map">
+  <template>
+    <style>
+    leaflet-map {
+      height: 400px;
+    }
+    </style>
+    <iron-ajax auto url="[[geojson-url]]" last-response="{{_geojson}}">
+    </iron-ajax>
+    <leaflet-map id="map" longitude="[[_longitude]]" latitude="[[_latitude]]" zoom="[[zoom]]">
+        <leaflet-tilelayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" max-zoom="19">
+              Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contr.,
+              <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,
+              Imagery © <a href="http://mapbox.com">Mapbox</a>
+        </leaflet-tilelayer>
+        <leaflet-geojson data="[[_geojson]]"></leaflet-geojson>
+    </leaflet-map>
+  </template>
+  <script>
+  Polymer({
+    is: 'venue-map',
+    properties: {
+      "_geojson": Object,
+      "geojson-url": String,
+      "_longitude": Number,
+      "_latitude": Number,
+      "zoom": {
+        type: Number,
+        value: 15
+      }
+    },
+    observers: [
+      '_calculateCenteroid(_geojson)'
+    ],
+    _calculateCenteroid: function() {
+      if (this._geojson) {
+        var c = turf.centroid(this._geojson);
+        this.set('_longitude', c.geometry.coordinates[0]);
+        this.set('_latitude', c.geometry.coordinates[1]);
+      }
+    },
+    ready: function(details) {
+      L.Icon.Default.imagePath =
+        this.resolveUrl('../bower_components/leaflet/dist/images');
+    }
+  });
+  </script>
+</dom-module>
