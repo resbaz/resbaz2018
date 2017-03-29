@@ -1,0 +1,39 @@
+<link rel="import" href="../components/extra-icons.html">
+<link rel="import" href="../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+
+<dom-module id="contact-icons">
+  <template>
+    <style>
+    a {
+      color: var(--accent-color);
+    }
+    paper-icon-button {
+      margin: 0px 20px;
+      height: 100px;
+      width: 100px;
+    }
+    </style>
+    <template is="dom-if" if="[[email]]">
+      <a title="Email {{email}}" href="[[_emailUri(email)]]"><paper-icon-button icon="communication:email"></paper-icon-button></a>
+    </template>
+    <template is="dom-if" if="[[twitter]]">
+      <a title="{{twitter}} on Twitter" href="[[_twitterUri(twitter)]]"><paper-icon-button icon="extra-icons:twitter"></paper-icon-button></a>
+    </template>
+  </template>
+  <script>
+  Polymer({
+    is: 'contact-icons',
+    properties: {
+      "email": String,
+      "twitter": String
+    },
+    _emailUri: function(email) {
+      return "mailto:" + email;
+    },
+    _twitterUri: function(twitter) {
+      return "https://twitter.com/" + twitter.replace('@','')
+    }
+  });
+  </script>
+</dom-module>

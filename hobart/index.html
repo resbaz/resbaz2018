@@ -7,26 +7,15 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Changes the image and title displayed when link is share in facebook -->
-  <meta property="og:image" content="http://resbaz2017.com/"/>
-  <meta property="og:title" content=""/>
-  <meta property="og:description" content=""/>
-  <meta property="og:url" content="http://resbaz2017.com//"/>
-  <meta property="og:site_name" content="ResBaz 2017"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:locale" content=""/>
-
   <title>ResBaz Hobart ????</title>
 
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-  <link rel="import" href="../components/extra-icons.html">
-  <link rel="import" href="../components/gitter-chat.html">
+  <link rel="import" href="../components/contact-icons.html">
   <link rel="import" href="../components/remote-markdown.html">
   <link rel="import" href="../components/venue-map.html">
   <link rel="import" href="../bower_components/paper-button/paper-button.html">
   <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-  <link rel="import" href="../bower_components/iron-icons/communication-icons.html">
   <link rel="import" href="../bower_components/app-layout/app-layout.html">
   <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
 
@@ -44,7 +33,7 @@
     <h1>Hobart</h1>
     <h2>31 January - 2 February, 2017</h2>
     <div class="actions">
-      <a href="#venue">
+      <a href="#come-along">
         <paper-button raised>Come Join Us</paper-button>
       </a>
     </div>
@@ -61,18 +50,26 @@
       <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
     </section>
     <hr/>
-    <section id="contact-us">
-      <h1>Contact ResBaz</h1>
+    <section id="come-along">
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
       <div class="center">
-        <a title="Email ResBaz" href="mail:research.bazaar@gmail.com"><paper-icon-button icon="communication:email"></paper-icon-button></a>
-        <a title="@ResBaz on Twitter" href="https://twitter.com/resbaz"><paper-icon-button icon="extra-icons:twitter"></paper-icon-button></a>
+        <a href="https://www.eventbrite.com.au/e/the-research-bazaar-tickets-29662163329">
+          <paper-button noink>Register</paper-button>
+        </a>
+      </div>
+    </section>
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="datasciencehobart@gmail.com" twitter="datasciencehbt"></contact-icons>
       </div>
     </section>
   </article>
   <footer>
     Copyright &copy; Research Platform Services, University of Melbourne, 2017
   </footer>
-  <!-- Chat -->
-  <gitter-chat room="resbaz/resbaz"></gitter-chat>
 </body>
 </html>
