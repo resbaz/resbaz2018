@@ -11,6 +11,7 @@
 
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
+  <link rel="import" href="../components/expandable-heading.html">
   <link rel="import" href="../components/simple-columns.html">
   <link rel="import" href="../components/contact-icons.html">
   <link rel="import" href="../components/remote-markdown.html">
@@ -57,11 +58,48 @@
         <div class="markdown-html"></div>
       </remote-markdown>
       <h2>Day 3: Community Day</h2>
+			<p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
       <simple-columns>
-				<p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
-        <remote-markdown url="community_day_options.md">
-          <div class="markdown-html"></div>
-        </remote-markdown>
+        <div>
+          <expandable-heading title="Installing and navigating the scientific Python stack">
+            This session will give an overview of the major Python libraries used for data science. Participants will learn how to manage and install these libraries using the conda package manager.
+          </expandable-heading>
+          <expandable-heading title="How to write a reproducible paper">
+            Modern research relies heavily on software and code. These aspects of the research methodology are rarely (if ever) documented in modern research papers, which has led to a reproducibility crisis in published computational research. This talk will outline the practical steps you can take to ensure that your papers are reproducible.
+          </expandable-heading>
+          <expandable-heading title="TPAC Nectar Cloud Starter">
+            Is your laptop running out of battery? Or disk space? Do you need a server computer to work with your colleague? Or colleagues? In Canada? The Nectar Research Cloud provides. It provides flexible ways of accessing many CPU and GB, or TB, or even PB. At bandwidths that measure in the Gb. Better yet, it's free if you work or study at an Australian research institution. Join this Cloud Starter class to learn hands-on how to launch your own virtual machine in the Nectar Cloud to help take your Resbaz Bash, R and Python skills to the next level and to the next scale.
+          </expandable-heading>
+          <expandable-heading title="Managing marine and Antarctic data at UTAS">
+            TBA
+          </expandable-heading>
+          <expandable-heading title="R-Ladies meetup">
+            R-Ladies is a world-wide organisation to promote gender diversity in the R community. The purpose of this session is to gauge interest in starting a Hobart chapter.
+          </expandable-heading>
+          <expandable-heading title="Installing and navigating the scientific R stack">
+            This session will give an overview of the major R libraries used for data science. Participants will learn how to manage and install these libraries.
+          </expandable-heading>
+        </div>
+        <div>
+          <expandable-heading title="Data science consultations">
+            Come along and listen to our experienced Software Carpentry instructors interview willing researchers about their personal data science workflows. If you're feeling brave you can put your hand up to be an interviewee, otherwise sit back and join in the audience discussion.
+          </expandable-heading>
+          <expandable-heading title="Oceans and Clouds. Managing AODN Infrastructure in the Cloud">
+            This session provides an overview of how the Australian Ocean Data Network (AODN) team leverages cloud technologies to support developing services for delivering oceanographic data. Utilising these technologies allows us to deliver reliable and scalable solutions for data availability. In this session, we provide an introduction to some of the most useful cloud services and insight into future possibilities for AODN infrastructure.
+          </expandable-heading>
+          <expandable-heading title="Getting started with netCDF">
+            This session will give an overview of the basic concepts you need to understand when dealing with data stored in netCDF format (e.g. common metadata conventions). A demonstration of how to interact with netCDF files using Python and R will be given, followed a discussion of tools that can be used when netCDF files get really large.
+          </expandable-heading>
+          <expandable-heading title="Speechcraft. Introduction to effective formal presentations.">
+            This session will give an overview of the basic concepts you need to understand when dealing with data stored in netCDF format (e.g. common metadata conventions). A demonstration of how to interact with netCDF files using Python and R will be given, followed a discussion of tools that can be used when netCDF files get really large.
+          </expandable-heading>
+          <expandable-heading title="How to write an executable paper">
+            In this session Tom will present a range of options to integrate figure and table creation into the final document. This process allows the figures, tables and values within the document to be automatically updated as data is corrected or added too.  The aspirational goal would be to be able to program much of the final output as well (increase / neutral / decrease statements), which could be useful for regular reporting, but this useful feature is less clear in an academic context.
+          </expandable-heading>
+          <expandable-heading title="Oceanographic data analysis using Ferret">
+            This session will give an introduction to Ferret, which is a data analysis and visualisation environment used extensively in the oceanography community.
+          </expandable-heading>
+        </div>
       </simple-columns>
     </section>
     <hr/>

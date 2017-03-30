@@ -1,0 +1,36 @@
+<link rel="import" href="../bower_components/iron-collapse/iron-collapse.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+
+<dom-module id="expandable-heading">
+  <template>
+    <style>
+    paper-button {
+      text-transform: none;
+      color: var(--accent-color);
+    }
+    </style>
+    <div>
+      <div>
+        <paper-button on-click="_toggle">[[title]]</paper-button>
+      </div>
+      <iron-collapse id="content" opened="{{opened}}">
+        <content></content>
+      </iron-collapse>
+    </div>
+  </template>
+  <script>
+  Polymer({
+    is: 'expandable-heading',
+    properties: {
+      title: String,
+      opened: {
+        type: Boolean,
+        value: false
+      }
+    },
+    _toggle: function() {
+      this.set('opened', !this.opened);
+    }
+  });
+  </script>
+</dom-module>
