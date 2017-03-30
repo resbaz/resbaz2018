@@ -20,6 +20,9 @@
     <template is="dom-if" if="[[twitter]]">
       <a title="{{twitter}} on Twitter" href="[[_twitterUri(twitter)]]"><paper-icon-button icon="extra-icons:twitter"></paper-icon-button></a>
     </template>
+    <template is="dom-if" if="[[facebook]]">
+      <a title="{{facebook}} on Facebook" href="[[_facebookUri(facebook)]]"><paper-icon-button icon="extra-icons:facebook"></paper-icon-button></a>
+    </template>
   </template>
   <script>
   Polymer({
@@ -30,6 +33,9 @@
     },
     _emailUri: function(email) {
       return "mailto:" + email;
+    },
+    _facebookUri: function(facebook) {
+      return "https://facebook.com/" + facebook.replace('@','')
     },
     _twitterUri: function(twitter) {
       return "https://twitter.com/" + twitter.replace('@','')
