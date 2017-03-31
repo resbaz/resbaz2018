@@ -1,0 +1,94 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.4/d3.min.js"></script>
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="csv-table">
+  <template>
+    <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 1ex 1em;
+    }
+    thead tr:last-of-type > * {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #dddddd;
+    }
+    tbody tr > * {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #eeeeee;
+    }
+    tbody tr:last-of-type > * {
+      border-bottom: none;
+    }
+    </style>
+    <iron-ajax auto
+      url="{{url}}"
+      handle-as="text"
+      last-response="{{_csvData}}"></iron-ajax>
+    <table>
+      <thead>
+        <template is="dom-repeat" items="[[_headingRows(data)]]" as="row">
+          <tr>
+            <template is="dom-repeat" items="[[_headingCells(row)]]" as="cell">
+              <td>{{cell}}</td>
+            </template>
+            <template is="dom-repeat" items="[[_contentCells(row)]]" as="cell">
+              <th>{{cell}}</th>
+            </template>
+          </tr>
+        </template>
+      </thead>
+      <tbody>
+        <template is="dom-repeat" items="[[_contentRows(data)]]" as="row">
+          <tr>
+            <template is="dom-repeat" items="[[_headingCells(row)]]" as="cell">
+              <th>{{cell}}</th>
+            </template>
+            <template is="dom-repeat" items="[[_contentCells(row)]]" as="cell">
+              <td>{{cell}}</td>
+            </template>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+  </template>
+  <script>
+  Polymer({
+    is: 'csv-table',
+    properties: {
+      "headingColumns": {
+        type: Number,
+        value: 1
+      },
+      "headingRows": {
+        type: Number,
+        value: 0
+      },
+      "data": Array,
+      "url": String,
+      "_csvData": String
+    },
+    observers: [
+      "_updateData(_csvData)"
+    ],
+    _updateData: function(data) {
+      this.set('data', d3.csvParseRows(this._csvData));
+    },
+    _headingRows: function(data) {
+      return data.slice(0, this.headingRows);
+    },
+    _contentRows: function(data) {
+      return data.slice(this.headingRows);
+    },
+    _headingCells: function(row) {
+      return row.slice(0, this.headingColumns);
+    },
+    _contentCells: function(row) {
+      return row.slice(this.headingColumns);
+    }
+  });
+  </script>
+</dom-module>
