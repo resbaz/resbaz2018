@@ -11,10 +11,11 @@
 
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-  <link rel="import" href="../components/expandable-heading.html">
-  <link rel="import" href="../components/simple-columns.html">
   <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
   <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
   <link rel="import" href="../components/venue-map.html">
   <link rel="import" href="../bower_components/paper-button/paper-button.html">
   <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
@@ -101,13 +102,14 @@
           </expandable-heading>
         </div>
       </simple-columns>
+      <embedded-google-sheet sheet-id="1p7FuVNCU7aLXoq4qgtKKXE2m4U3hBzcxs7RADXepk_w" style="height: 600px"></embedded-google-sheet>
     </section>
     <hr/>
     <section id="come-along">
       <remote-markdown url="come_along.md">
         <div class="markdown-html"></div>
       </remote-markdown>
-      <div class="center">
+      <div class="center" style="margin-top: 2em">
         <a href="https://www.eventbrite.com.au/e/the-research-bazaar-tickets-29662163329">
           <paper-button noink>Register</paper-button>
         </a>

@@ -1,0 +1,26 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="embedded-google-sheet">
+  <template>
+    <style>
+    :host {
+      display: block;
+      height: 300px;
+      width: 100%;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+    </style>
+    <iframe src="https://docs.google.com/spreadsheets/d/{{sheetId}}/pubhtml?widget=true&amp;headers=false"></iframe>
+  </template>
+  <script>
+  Polymer({
+    is: 'embedded-google-sheet',
+    properties: {
+      "sheetId": String
+    }
+  });
+  </script>
+</dom-module>
