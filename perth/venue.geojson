@@ -1,17 +1,16 @@
 {
     "type": "FeatureCollection",
-
-    "features": [
+    "features": [    
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates":[115.895357, -32.005840]
+                "coordinates":[115.82063, -31.98582]
             },
             "properties": {
                 "marker-color": "#2b3990",
-                "details": "<a href='./perth'>Perth</a>"
+                "details": "IMAS"
             }
-        },
+        }
     ]
 }
