@@ -1,7 +1,11 @@
 # About
 
-The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2018 (but with a focus on January / February), events will be held at a number of university campuses around the globe.
+The inagural Research Bazaar took place in Melbourne in January of 2015. Now in our fourth year, the Research Bazaar continues to showcase the latest digital tools available, most of which are open source.
 
-Research Platform Services, The University of Melbourne, is proud to present Melbourne's 2018 Research Bazaar. The aim of the event is to introduce researchers from all career stages and disciplines to the digital skills and tools required to do their research better, faster and smarter. The theme of this year's conference is: **work smarter not harder!**
 
-Participants will be introduced to tools with 30 minute interactive pitches, allowing each person to sample a variety of tools. Each tool has an optional follow-on training.
+
+Research Platform Services, The University of Melbourne, is proud to present Melbourne's 2018 Research Bazaar. The aim of the event is to bring together researchers from all career stages. The theme of this year's conference is: **work smarter not harder!**
+
+
+
+Participants will be introduced to tools with 30 minute interactive pitches, allowing each person to sample a variety of tools. Most tools have an optional follow-on training. Under the big tent, the bazaar will feature keynote speakers, activities and a chance to interact and share stories and experiences of your research journey. Catering is key to a sucessful conference . We are famous for the food & beverage service we provide at Res Baz and assure you that you wont be dissapointed.
