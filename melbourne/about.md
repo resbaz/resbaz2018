@@ -1,6 +1,6 @@
 # About
 
-The inagural Research Bazaar (ResBaz) took place in Melbourne in January of 2015. Now in our fourth year, ResBaz continues to showcase the latest digital tools available, most of which are open source.
+The inagural Research Bazaar (ResBaz) took place in Melbourne in January of 2015. Now in its fourth year, ResBaz continues to showcase the latest digital tools available, most of which are open source.
 
 Research Platform Services, The University of Melbourne, is proud to present Melbourne's 2018 ResBaz. The aim of the event is to bring together researchers from all career stages. The theme of this year's conference is: **work smarter not harder!**
 
