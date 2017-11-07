@@ -12,6 +12,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./perth'>Perth</a>"
             }
+        },
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[144.9613032, -37.7982637]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./melbourne'>Melbourne</a>"
+            }
         }
     ]
 }
