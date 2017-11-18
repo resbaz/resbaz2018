@@ -1,16 +1,24 @@
-,Aurora Lecture Theatre,Tarlanga Seminar Room (103),Rori Seminar Room (105)
-09:00-09:30,Installing and navigating the scientific Python stack,Installing and navigating the R scientific stack,
-09:30-10:00,Installing and navigating the scientific Python stack,Installing and navigating the R scientific stack,
-10:00-10:30,Getting started with netCDF,R-Ladies meetup,
-10:30-11:00,Morning tea (provided),,
-11:00-11:30,Oceans and clouds: Managing AODN infrastructure in the Cloud,How to write a reproducible paper,
-11:30-12:00,Oceans and clouds: Managing AODN infrastructure in the Cloud,How to write an executable paper,
-12:00-12:30,Oceanographic data analysis using Ferret,Managing marine and Antarctic data at UTAS,
-12:30-12:30,,Lunch (not provided),
-13:30-13:00,TPAC NeCTAR Cloud starter,Data science consultations,Speechcraft: Introduction to effective formal presentations
-14:00-14:30,TPAC NeCTAR Cloud starter,Data science consultations,Speechcraft: Introduction to effective formal presentations
-14:30-15:00,TPAC NeCTAR Cloud starter,Data science consultations,Speechcraft: Introduction to effective formal presentations
-15:00-15:30,,Afternoon tea (provided),
-15:30-16:00,TPAC NeCTAR Cloud starter,,
-16:00-16:30,TPAC NeCTAR Cloud starter,,
-16:30-17:00,TPAC NeCTAR Cloud starter,,
+Day 1,,,,,
+,Business School Foyer,Room 1,Room 2,Room 3,Room 4
+09:00-09:30,Introduction, Logistics, Welcome to country,,,,
+9:30-10:30,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+10:30-11:00,Morning Tea,Morning Tea,Morning Tea,Morning Tea,Morning Tea
+11:00-13:00,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+13:00-14:00,Lunch break,Lunch break,Lunch break,Lunch break,Lunch break
+13:00-17:00,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+,,,,,
+Day 2,,,,,
+,Business School Foyer,Room 1,Room 2,Room 3,Room 4
+09:00-10:30,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+10:30-11:00,Morning Tea,Morning Tea,Morning Tea,Morning Tea,Morning Tea
+11:00-13:00,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+13:00-14:00,Lunch break,Lunch break,Lunch break,Lunch break,Lunch break
+13:00-17:00,,Software Carpentry Python,Software Carpentry R,Data Carpentry Genomics,Advanced Stream
+,,,,,
+Day 3,,,,,
+,Business School Foyer,Room 1,Room 2,Room 3,Room 4
+09:00-10:30,,Small workshops,Small workshops,Small workshops,Small workshops
+10:30-11:00,Morning Tea,Morning Tea,Morning Tea,Morning Tea,Morning Tea
+11:00-13:00,,Small workshops,Small workshops,Small workshops,Small workshops
+13:00-14:00,Lunch break,Lunch break,Lunch break,Lunch break,Lunch break
+13:00-17:00,,Small workshops,Small workshops,Small workshops,Small workshops
