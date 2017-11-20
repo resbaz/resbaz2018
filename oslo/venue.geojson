@@ -1,0 +1,16 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[10.723284, 59.939673]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "University of Oslo campus"
+            }
+        }
+    ]
+}
