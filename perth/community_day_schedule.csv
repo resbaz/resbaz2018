@@ -1,22 +1,23 @@
 "Day 1",,,,,
-,"Business School Foyer","Room 1","Room 2","Room 3","Room 4"
-"09:00-09:30","Introduction/Logistics/Welcome to country","Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
-"9:30-10:30",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+,"Ernst & Young lecture theatre","Python stream","R stream","Bioinformatics stream","Advanced stream"
+"09:00-09:30","Introduction/Logistics/Welcome to country",,,,
+"9:30-10:30",,"Intro to bash","Intro to bash","Data Carpentry Genomics","Introduction to PySpark"
 "10:30-11:30","Morning Tea",,,,
-"11:30-13:00",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+"11:30-13:00",,"Intro to Python","Intro to R","Data Carpentry Genomics","Introduction to PySpark"
 "13:00-14:00","Lunch break",,,,
-"13:00-17:00",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+"13:00-17:00",,"Intro to Python","Intro to R","Data Carpentry Genomics","Nimbus research cloud training"
 ,,,,,
 "Day 2",,,,,
-,"Business School Foyer","Room 1","Room 2","Room 3","Room 4"
-"09:00-10:30",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+,"Ernst & Young lecture theatre","Python stream","R stream","Bioinformatics stream","Advanced stream"
+"09:00-10:30",,"Intro to Python","Intro to R","Data Carpentry Genomics","Serial optimisation"
 "10:30-11:30","Morning Tea",,,,
-"11:30-13:00",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+"11:30-13:00",,"Intro to Python","Intro to R","Data Carpentry Genomics","Serial optimisation"
 "13:00-14:00","Lunch break",,,,
-"13:00-17:00",,"Software Carpentry Python","Software Carpentry R","Data Carpentry Genomics","Advanced Stream"
+"13:00-17:00",,"Intro to git","Intro to git","Data Carpentry Genomics","Remote visualisation"
+"17:00-18:00","Keynote: MP Dr. Anne Aly",,,,
 ,,,,,
 "Day 3",,,,,
-,"Business School Foyer","Room 1","Room 2","Room 3","Room 4"
+,"Ernst & Young lecture theatre","Python stream","R stream","Bioinformatics stream","Advanced stream"
 "09:00-10:30",,"Small workshops","Small workshops","Small workshops","Small workshops"
 "10:30-11:30","Morning Tea",,,,
 "11:30-13:00",,"Small workshops","Small workshops","Small workshops","Small workshops"

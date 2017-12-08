@@ -4,6 +4,6 @@ Over the first two days of the event, two Software Carpentry and one Data Carpen
 
 The Data Carpentry workshop will focus on genomics and bioinformatics tools on the command line.
 
-Simultaneously there will be an advanced stream for those who already have experience with programming or have participated in a Software Carpentry workshop before.
+Simultaneously there will be an advanced stream for those who already have experience with programming or have participated in a Software Carpentry workshop before. This stream is hosted by The Pawsey Supercomputing Centre.
 
-At the end of day 1 and day 2 keynote speakers will inform attendants about the importance of data in the 21st century and how they got to where they are.
+At the end of day 2 MP Dr. Anne Aly will hold a keynote on the future of data and the role of the government!
