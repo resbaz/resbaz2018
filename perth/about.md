@@ -4,5 +4,7 @@ The Research Bazaar is a worldwide festival promoting the digital literacy emerg
 
 The University of Western Australia in conjunction with [Advancing Western Australian Education][awa] and the [Forrest Research Foundation][ff] is proud to present 2018's Research Bazaar. The aim of the event is to equip researchers from all career stages and disciplines with the digital skills and tools required to do their research better, faster and smarter.
 
+The official Twitter hash-tag is #resbazPerth
+
 [awa]: http://www.waresearch.com/
 [ff]: http://www.forrestresearch.org.au/
