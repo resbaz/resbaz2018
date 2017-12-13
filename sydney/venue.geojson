@@ -1,0 +1,16 @@
+{
+    "type": "FeatureCollection",
+    "features": [    
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[151.10916495323178, -33.776418481492556]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "IMAS"
+            }
+        }
+    ]
+}
