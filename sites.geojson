@@ -45,6 +45,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./brisbane'>Brisbane</a>"
             }
-        }
+        },
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[151.1126, -33.7738]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./sydney'>Sydney</a>"
+            }
+	 }
     ]
 }
