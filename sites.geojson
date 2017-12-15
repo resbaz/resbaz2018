@@ -34,6 +34,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./oslo'>Oslo</a>"
             }
+        },
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[153.024804, -27.482034]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./brisbane'>Brisbane</a>"
+            }
         }
     ]
 }
