@@ -5,11 +5,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates":[115.82063, -31.98582]
+                "coordinates":[170.5127047, -45.8673519]
             },
             "properties": {
                 "marker-color": "#2b3990",
-                "details": "IMAS"
+                "details": "Castle Lecture Theatres, University of Otago"
             }
         }
     ]
