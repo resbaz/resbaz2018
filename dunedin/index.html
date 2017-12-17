@@ -52,62 +52,56 @@
     <hr/>
     <section id="venue">
       <h1>Venue</h1>
-      <p>The event will be held in the Castle Lecture Theatra complex at the University of Otago</p>
+      <p>The event will be held in the Castle Lecture Theatre complex at the University of Otago</p>
 
       <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
       
     </section>
     <hr/>
     <section id="schedule">
-      <h1>Schedule</h1>
-      <remote-markdown url="software_carpentry.md">
-        <!-- This element allows markdown to be styled the same as the page -->
-        <div class="markdown-html"></div>
-      </remote-markdown>
-      <h2>Day 3: Community Day</h2>
-			<p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
+      <h1>Sessions</h1>
       <p>Click on the name of each session to discover more!</p>
+      
+      <h2>Main streams - Software Carpentry</h2>
+
       <simple-columns>
         <div>
-          <expandable-heading title="How to write a reproducible paper">
-            Modern research relies heavily on software and code. These aspects of the research methodology are rarely (if ever) documented in modern research papers, which has led to a reproducibility crisis in published computational research. This session, run by Michael David Wilson, will outline the practical steps you can take to ensure that your papers are reproducible.
-          </expandable-heading>
-          <expandable-heading title="Machine learning. From zero to hero!">
-            Machine learning has become a valuable tool for people working with large amount of data. In this session we'll learn how to extract meaning from data using several techniques implemented in scikit-learn from John Vial.
-          </expandable-heading>
-          <expandable-heading title="Using EndNote effectively">
-            EndNote is the most common reseach citation manager. In this session Armin Scheben will show you caveats and tricks so that you can use EndNote in an effective manner.
-          </expandable-heading>
-          <expandable-heading title="Ethical issues in publication and authorship">
-            Publishing is fraught with ethical tripping stones. In this session Joanne Edmonston will talk you through the problems you may face!
-          </expandable-heading>
-          <expandable-heading title="Structuring an effective conference presentation">
-            It is not easy to summarise months of research into a 20 minutes talk. Good that Krystyna Haq will show you how it's done!
-          </expandable-heading>
-          <expandable-heading title="Data Science In The Cloud">
-            AWS as a research platform reduces the cost of trying new ideas and provides virtually unlimited storage and compute resources. Andrea Bedini (KZN Group) will show you how to get started with doing data science on the cloud, in perfect security and control over the budget. The workshop will start with a brief overview of AWS and dive straight into a hands-on lab with applications to deep learning, satellite imagery and life sciences.
-          </expandable-heading>
-        </div>
-        <div>
-          <expandable-heading title="Getting your research published">
-            There are many tricks and caveats in getting your research into a journal. In this session Prof. Dave Edwards will take you through what he has learned in decades of his work.
-          </expandable-heading>
-          <expandable-heading title="How to condense your research into a short 'elevator pitch'">
-            Ever needed to explain your research in two sentences to your grandmother, and struggled? Come along and let Armin Scheben show you how to condense your research into an elevator pitch.
-          </expandable-heading>
-          <expandable-heading title="Analysing qualitative data with NVivo">
-            Michael Azariadis will show you how to use NVivo, powerful data anysis software that supports qualitative and mixed-methods research. (WARNING: Places are limited due to software licensing)
-          </expandable-heading>
-          <expandable-heading title="Planning for your future career">
-            Academia? Industry? The UWA Graduate School will hold a workshop on planning your career!
-          </expandable-heading>
-          <expandable-heading title="Making the most of your conference poster">
-            Conferences are full of posters clamoring for attention - Krystyna Haq will show you how to make your poster get the most attention.
-          </expandable-heading>
-        </div>
+          <expandable-heading title="The Unix shell">
+	    Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively.
+	  </expandable-heading>
+	  <expandable-heading title="Programming in R">
+	    The R language provides a flexible and powerful environment for data analysis and visualisation.  This workshop will introduce the R language and will teach you some key programming skills.
+	  </expandable-heading>
+	  <expandable-heading title="Version control with Git">
+	    Version control is the lab notebook of the digital world - it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on.
+	  </expandable-heading>
+	</div>
       </simple-columns>
-      <p>Here's the preliminary timeplan. <b>IMPORTANT</b>: We are running two repeats of the 'Analysing qualitative data with Nvivo' course and places are strictly limited to 10 people each, if you want to attend please send us an email to <a href-;'mailto:resbaz2018-lib@uwa.edu.au'>resbaz2018-lib@uwa.edu.au</a>. Please also note that the Nvivo courses are in the <i>Law Library</i>.</p>
-      <csv-table url="community_day_schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
+
+      <h2>Additional streams</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="ggplot2 for data visualisation">
+	    The popular ggplot2 package for R provides a powerful means to create compelling data visualisations.  Come along and learn how to use ggplot2 to make your data look even more beautiful.
+	  </expandable-heading>
+	  <expandable-heading title="Reproducible research - concepts and practise">
+	    Reproducibility is a key component of  science, and one that is becoming even more critical as we analyse ever-growing amounts of data using increasingly complex tools.  Come along to learn about the key concepts of reproducible research, and gain some experience with tools that will help you put these ideas into practise.
+	  </expandable-heading>
+	  <expandable-heading title="Shiny for R-based web interfaces">
+	    Want to turn your ground-breaking R analyses into web-based tools for your friends and collaborators?  The "shiny" package for R provides a simple mechanism for building sophisticated web interfaces for interactive data analysis and visualisation - come along and learn how it's done.
+	  </expandable-heading>
+	  <expandable-heading title="Advice for early career researchers">
+	    Want to get your research career off to a flying start? Come along and learn from the pros.
+	  </expandable-heading>
+	  <expandable-heading title="Advanced R programming">
+	    Can't get enough of R?  This focused workshop will help turn your commands into scripts, your scripts into functions, and your functions into packages - what more could you want?
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Preliminary timetable</h2>
+      <csv-table url="community_day_schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>    
     </section>
     <hr/>
     <section id="come-along">
@@ -124,7 +118,7 @@
     <section id="contact-us">
       <h1>Contact</h1>
       <div class="center">
-        <contact-icons email="resbaz2018-lib@uwa.edu.au" twitter="resbaz" facebook="universitywa"></contact-icons>
+        <contact-icons email="res.baz@otago.ac.nz" twitter="resbaz" facebook="otagouniversity"></contact-icons>
       </div>
     </section>
   </article>
