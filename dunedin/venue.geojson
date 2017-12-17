@@ -5,7 +5,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates":[170.5127047, -45.8673519]
+                "coordinates":[170.513167, -45.866627]
             },
             "properties": {
                 "marker-color": "#2b3990",
