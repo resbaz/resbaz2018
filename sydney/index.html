@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Sydney 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <link rel="icon" type="image/png" href="../img/favicon.png" />
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/sydney_mq_lowres.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz 2018 Sydney">
+    <h1>ResBaz Sydney</h1>
+    <h2>3 - 5 July, 2018</h2>
+    <!--<div class="actions">
+      <a href="#come-along">
+        <paper-button raised>Come Join Us</paper-button>
+      </a>
+    </div>-->
+  </resbaz-header>
+  <article>
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>The event will be held at Macquarie University.</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
+
+
+    </section>
+
+    <hr/>
+<!--    <section id="come-along">
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html">
+        <p>Details coming soon.</p>
+        </div>
+      </remote-markdown>
+    </section>
+-->
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+      <p>Details coming soon, or contact us at:</p>
+        <contact-icons email="resbazsydney@googlegroups.com" ></contact-icons>
+      </div>
+    </section>
+  </article>
+  <footer>
+  <p style="padding-bottom:20px;">Copyright &copy; Macquarie University, 2018</p>
+  </footer>
+</body>
+</html>
