@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Dunedin 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(dunedin.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Dunedin">
+    <h1>Dunedin</h1>
+    <h2>7-9 February, 2018</h2>
+    <div class="actions">
+      <a href="#come-along">
+        <paper-button raised>Come Join Us</paper-button>
+      </a>
+    </div>
+  </resbaz-header>
+  <article>
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>The event will be held in the Castle Lecture Theatre complex at the University of Otago</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      
+    </section>
+    <hr/>
+    <section id="schedule">
+      <h1>Sessions</h1>
+      <p>Click on the name of each session to discover more!</p>
+      
+      <h2>Main streams - Software Carpentry</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="The Unix shell">
+	    Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively.
+	  </expandable-heading>
+	  <expandable-heading title="Programming in R">
+	    The R language provides a flexible and powerful environment for data analysis and visualisation.  This workshop will introduce the R language and will teach you some key programming skills.
+	  </expandable-heading>
+	  <expandable-heading title="Version control with Git">
+	    Version control is the lab notebook of the digital world - it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on.
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Additional streams</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="ggplot2 for data visualisation">
+	    The popular ggplot2 package for R provides a powerful means to create compelling data visualisations.  Come along and learn how to use ggplot2 to make your data look even more beautiful.
+	  </expandable-heading>
+	  <expandable-heading title="Reproducible research - concepts and practise">
+	    Reproducibility is a key component of  science, and one that is becoming even more critical as we analyse ever-growing amounts of data using increasingly complex tools.  Come along to learn about the key concepts of reproducible research, and gain some experience with tools that will help you put these ideas into practise.
+	  </expandable-heading>
+	  <expandable-heading title="Shiny for R-based web interfaces">
+	    Want to turn your ground-breaking R analyses into web-based tools for your friends and collaborators?  The "shiny" package for R provides a simple mechanism for building sophisticated web interfaces for interactive data analysis and visualisation - come along and learn how it's done.
+	  </expandable-heading>
+	  <expandable-heading title="Advice for early career researchers">
+	    Want to get your research career off to a flying start? Come along and learn from the pros.
+	  </expandable-heading>
+	  <expandable-heading title="Advanced R programming">
+	    Can't get enough of R?  This focused workshop will help turn your commands into scripts, your scripts into functions, and your functions into packages - what more could you want?
+	  </expandable-heading>
+	  <expandable-heading title="Introduction to Python programming">
+	    This workshop will provide a basic introduction to programming principles using the Python language. 
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Preliminary timetable</h2>
+      <csv-table url="schedule-v2.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>    
+    </section>
+    <hr/>
+    <section id="come-along">
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+      <div class="center" style="margin-top: 2em">
+        <!-- <a href="https://www.eventbrite.com.au/e/the-research-bazaar-tickets-29662163329">
+        <paper-button noink>Register</paper-button> -->
+        </a>
+      </div>
+    </section>
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="res.baz@otago.ac.nz" twitter="resbaz" facebook="otagouniversity"></contact-icons>
+      </div>
+    </section>
+  </article>
+  <footer>
+    Copyright &copy; Research Platform Services, University of Melbourne, 2018
+   </footer>
+</body>
+</html>
