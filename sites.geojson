@@ -56,6 +56,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./sydney'>Sydney</a>"
             }
+	},
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[170.513167, -45.866627]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./dunedin'>Dunedin</a>"
+            }
 	 }
     ]
 }
