@@ -4,19 +4,22 @@ Over the first two days of the event, two Software Carpentry and one Data Carpen
 
 The Data Carpentry workshop will focus on genomics and bioinformatics tools on the command line.
 
-Simultaneously there will be an advanced stream for those who already have experience with programming or have participated in a Software Carpentry workshop before. This stream is hosted by The Pawsey Supercomputing Centre. It contains:
+Simultaneously there will be an advanced stream for those who already have experience with programming or have participated in a Software Carpentry workshop before. This stream is hosted by The Pawsey Supercomputing Centre. Click on the classes' names to see what they are about!
 
-Introduction to PySpark
+<expandable-heading title="Introduction to PySpark">
 This course will cover the basics of the Python API for Spark (PySpark).
+</expandable-heading>
 
-Nimbus research cloud training
+<expandable-heading title="Nimbus research cloud training">
 At the end of this session students will know how to launch and maintain a virtual machine on the Pawsey Nimbus research cloud.  
+</expandable-heading>
 
-Serial Optimisation
+<expandable-heading title="Serial Optimisation">
 This course covers the various aspects of achieving good performance from serial code; including algorithm, programming, profiling, and optimisation considerations. 
+</expandable-heading>
 
-Remote Visualisation
+<expandable-heading title="Remote Visualisation">
 This course covers various approaches to visualising large data sets using the Zeus cluster at the Pawsey Supercomputing Centre.
-
+</expandable-heading>
 
 At the end of day 2 MP Dr. Anne Aly will hold a keynote on the future of data and the role of the government!
