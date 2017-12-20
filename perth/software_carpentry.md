@@ -22,4 +22,7 @@ This course covers the various aspects of achieving good performance from serial
 This course covers various approaches to visualising large data sets using the Zeus cluster at the Pawsey Supercomputing Centre.
 </expandable-heading>
 
-At the end of day 2 MP Dr. Anne Aly will hold a keynote on the future of data and the role of the government!
+At the end of day 2 MP [Dr. Anne Aly][aa] will hold a keynote on the future of data and the role of the government!
+
+
+[aa]: https://en.wikipedia.org/wiki/Anne_Aly
