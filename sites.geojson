@@ -21,7 +21,7 @@
             },
             "properties": {
                 "marker-color": "#2b3990",
-                "details": "<a href='./melbourne'>Melbourne</a>"
+                "details": "<a href='http://research.unimelb.edu.au/infrastructure/research-platform-services/training/research-bazaar/resbaz-2018'>Melbourne</a>"
             }
         },
 	 {
@@ -45,6 +45,28 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./brisbane'>Brisbane</a>"
             }
-        }
+        },
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[151.1126, -33.7738]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./sydney'>Sydney</a>"
+            }
+	},
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[170.513167, -45.866627]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./dunedin'>Dunedin</a>"
+            }
+	 }
     ]
 }
