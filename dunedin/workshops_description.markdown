@@ -1,12 +1,15 @@
-- \* denotes the recommended introductory data analysis stream
-- It is highly recommended that you take the Software Capentry (SWC) morning workshops if you are a beginner/novice
-- All workshops are pitched as an introduction/taster to the particular topic
+# ResBaz 2018 workshop information
+
+The section below provide details of the workshop sessions that will be run during ResBaz 2018.
+
+Note that:
+- \* denotes the recommended introductory data analysis stream: this series of workshops will provide beginners with a solid introduction to key programming and reproducible research skills.
+- It is highly recommended that you take the Software Capentry (SWC) morning workshops if you are a beginner/novice.
+- Most workshops are pitched as an introduction/taster to the particular topic, although some will require specific prior knowledge (e.g., learning about writing functions and packages in R requires some previous experience with the R language).
 
 # Morning Sessions
 
 ## Day 1
-
-
 
 ### \* SWC  - R
 
@@ -19,21 +22,18 @@ An introduction to the R programming language
 
 This workshop and will extend on making functions in R and go through how to transform from a function into a documented and installable R package
 
-- Intended level: novice/intermediate
+- Intended level: intermediate
     - having taken SWC R (or experience with R) before would be beneficial
 - Language: R
 
 
 ## Day 2
 
-
 ### *SWC - BASH  (Command Line)
 An introduction to the use of the command line using BASH.
 
 - Intended level: beginner/novice
 - Language: BASH
-
-
 
 ### Intermediate/Advanced use of the Tidyverse
 
@@ -42,7 +42,6 @@ This workshop is intended to cover the tidyverse packages more in depth with a f
 - Intended level: intermediate 
     - Comfortable with SWC R and some experience with the tidyverse packages would be beneficial
 - Language: R
-
 
 
 ## Day 3
@@ -62,7 +61,6 @@ This workshop will cover markdown and R variants (Rmarkdown, Bookdown, and Blogd
     - prior experience with Git and R would be beneficial
 
 
-
 # Afternoon Mini Workshops:
 
 ### * Data manipulation and plotting in R (intro to tidyverse)
@@ -74,23 +72,20 @@ This mini workshop will follow the data manipulation and plotting lessons from t
 - Language: R
 
 
-
 ### Shiny Apps in R
 
 This mini workshop is designed to provide a hands on lesson for the creation of interactive shiny apps in R for data exploration.
 
-- Intended level: novice/intermediate
+- Intended level: intermediate
 - Language: R
-
 
 
 ### Web scraping
 
-This workshop is intended to convey the basics of scraping information from the web, e.g. tables on websites and cleaned into a usable format.
+This workshop is intended to convey the basics of scraping information from the web.  For emxaple, obtaining data from tables on websites, and cleaning it into a usable format.
 
-- Intended level: novice/intermediate
+- Intended level: intermediate
 - Language: most likely R
-
 
 
 ### Introduction to National eScience Infrastructure (NeSI)
@@ -99,15 +94,13 @@ This workshop is designed to introduce you to the available national compute res
 
 - Intended level: beginner/novice 
     - SWC BASH (command line) would be beneficial
-    
-    
+      
 ### Introduction to Python
 
 An introductory workshop to understand the basics of the python language for programming
 
 - Intended level: beginner/novice
 - Language: Python (3)
-
 
 
 ### Making BASH (Command Line) Friendly
@@ -123,7 +116,6 @@ This mini workshop is designed to introduce the syntax and creation of regular e
 
 - Intended level: beginner/novice
     - intro to bash beneficial
-
 
 ### *Report making in Markdown
 
