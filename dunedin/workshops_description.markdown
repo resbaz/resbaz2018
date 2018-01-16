@@ -3,7 +3,7 @@
 The section below provide details of the workshop sessions that will be run during ResBaz 2018.
 
 Note that:
-- \* denotes the recommended introductory data analysis stream: this series of workshops will provide beginners with a solid introduction to key programming and reproducible research skills.
+- A "\*" denotes the recommended introductory data analysis stream: this series of workshops will provide beginners with a solid introduction to key programming and reproducible research skills.
 - It is highly recommended that you take the Software Capentry (SWC) morning workshops if you are a beginner/novice.
 - Most workshops are pitched as an introduction/taster to the particular topic, although some will require specific prior knowledge (e.g., learning about writing functions and packages in R requires some previous experience with the R language).
 
@@ -123,3 +123,17 @@ An introduction to using markdown syntax for reproducible report making. This wi
 
 - Intended level: beginner/novice
     - experience with R would be beneficial
+
+### Advanced Shell
+
+This will present some more advanced Shell techniques and "power tips" that will greatly enhance your everyday use of the Shell.
+
+- Intended level: intermediate
+    - intro to bash beneficial
+    
+### Research Project Management
+
+This will cover techniques and tools for effectively managing research proijects, and their associated data (and metadata).  While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice.
+
+- Intended level: beginner/novice
+
