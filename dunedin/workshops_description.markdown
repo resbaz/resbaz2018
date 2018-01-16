@@ -117,6 +117,12 @@ This workshop will cover customising your command line environment such as makin
 - Intended level: beginner/novice 
     - intro to bash beneficial
 
+### Introduction to Regular Expressions
+
+This mini workshop is designed to introduce the syntax and creation of regular expressions (generalisable search terms) for searching text. Content will be based on this lesson https://data-lessons.github.io/library-data-intro/04-regular-expressions/
+
+- Intended level: beginner/novice
+    - intro to bash beneficial
 
 
 ### *Report making in Markdown
