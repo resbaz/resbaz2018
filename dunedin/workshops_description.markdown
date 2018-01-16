@@ -138,3 +138,8 @@ This will cover techniques and tools for effectively managing research proijects
 
 - Intended level: beginner/novice
 
+### Introduction to LaTeX
+
+This mini workshop will cover how to create docments using LaTeX
+
+- Intended level: beginner/novice
