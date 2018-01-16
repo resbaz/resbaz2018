@@ -7,9 +7,9 @@ Note that:
 - It is highly recommended that you take the Software Capentry (SWC) morning workshops if you are a beginner/novice.
 - Most workshops are pitched as an introduction/taster to the particular topic, although some will require specific prior knowledge (e.g., learning about writing functions and packages in R requires some previous experience with the R language).
 
-# Day 1
+# Morning Sessions
 
-## Morning Sessions
+## Day 1
 
 ### \* SWC  - R
 
@@ -26,7 +26,42 @@ This workshop and will extend on making functions in R and go through how to tra
     - having taken SWC R (or experience with R) before would be beneficial
 - Language: R
 
-## Afternoon sessions:
+
+## Day 2
+
+### *SWC - BASH  (Command Line)
+An introduction to the use of the command line using BASH.
+
+- Intended level: beginner/novice
+- Language: BASH
+
+### Intermediate/Advanced use of the Tidyverse
+
+This workshop is intended to cover the tidyverse packages more in depth with a focus on programmatic analysis and database usage.
+
+- Intended level: intermediate 
+    - Comfortable with SWC R and some experience with the tidyverse packages would be beneficial
+- Language: R
+
+
+## Day 3
+
+
+### *SWC - Version Control with Git
+
+An introductory workshop for version control of text and code using Git (and Github)
+
+- Intended level: beginner/novice
+
+### Reproducible Research
+
+This workshop will cover markdown and R variants (Rmarkdown, Bookdown, and Blogdown), and version control work flows for the purposes of customised reproducible reports. 
+
+- Intended level: novice/intermediate 
+    - prior experience with Git and R would be beneficial
+
+
+# Afternoon Mini Workshops:
 
 ### * Data manipulation and plotting in R (intro to tidyverse)
 
@@ -52,28 +87,14 @@ This workshop is intended to convey the basics of scraping information from the 
 - Intended level: intermediate
 - Language: most likely R
 
-# Day 2
 
-## Morning Sessions
+### Introduction to National eScience Infrastructure (NeSI)
 
-### *SWC - BASH  (Command Line)
-An introduction to the use of the command line using BASH.
+This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs.
 
-- Intended level: beginner/novice
-- Language: BASH
-
-
-### Intermediate/Advanced use of the Tidyverse
-
-This workshop is intended to cover the tidyverse packages more in depth with a focus on programmatic analysis and database usage.
-
-- Intended level: intermediate 
-    - Comfortable with SWC R and some experience with the tidyverse packages would be beneficial
-- Language: R
-
-
-## Afternoon Sessions
-
+- Intended level: beginner/novice 
+    - SWC BASH (command line) would be beneficial
+      
 ### Introduction to Python
 
 An introductory workshop to understand the basics of the python language for programming
@@ -89,6 +110,12 @@ This workshop will cover customising your command line environment such as makin
 - Intended level: beginner/novice 
     - intro to bash beneficial
 
+### Introduction to Regular Expressions
+
+This mini workshop is designed to introduce the syntax and creation of regular expressions (generalisable search terms) for searching text. Content will be based on this lesson https://data-lessons.github.io/library-data-intro/04-regular-expressions/
+
+- Intended level: beginner/novice
+    - intro to bash beneficial
 
 ### *Report making in Markdown
 
@@ -96,29 +123,3 @@ An introduction to using markdown syntax for reproducible report making. This wi
 
 - Intended level: beginner/novice
     - experience with R would be beneficial
-
-# Day 3
-
-## Morning Sessions
-
-### *SWC - Version Control with Git
-
-An introductory workshop for version control of text and code using Git (and Github)
-
-- Intended level: beginner/novice
-
-### Reproducible Research
-
-This workshop will cover markdown and R variants (Rmarkdown, Bookdown, and Blogdown), and version control work flows for the purposes of customised reproducible reports. 
-
-- Intended level: novice/intermediate 
-    - prior experience with Git and R would be beneficial
-
-## Afternoon
-
-### Introduction to National eScience Infrastructure (NeSI)
-
-This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs.
-
-- Intended level: beginner/novice 
-    - SWC BASH (command line) would be beneficial
