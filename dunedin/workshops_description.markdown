@@ -71,6 +71,12 @@ This mini workshop will follow the data manipulation and plotting lessons from t
     - intro level of R would be beneficial
 - Language: R
 
+### * Report making in Markdown
+
+An introduction to using markdown syntax for reproducible report making. This will also cover an introduction to Rmarkdown for the generation of reproducible compiled reports and analysis in R.
+
+- Intended level: beginner/novice
+    - experience with R would be beneficial
 
 ### Shiny Apps in R
 
@@ -118,13 +124,6 @@ https://data-lessons.github.io/library-data-intro/04-regular-expressions/
 
 - Intended level: beginner/novice
     - intro to bash beneficial
-
-### *Report making in Markdown
-
-An introduction to using markdown syntax for reproducible report making. This will also cover an introduction to Rmarkdown for the generation of reproducible compiled reports and analysis in R.
-
-- Intended level: beginner/novice
-    - experience with R would be beneficial
 
 ### Advanced Shell
 
