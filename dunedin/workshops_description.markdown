@@ -29,11 +29,11 @@ This workshop and will extend on making functions in R and go through how to tra
 
 ## Day 2
 
-### *SWC - BASH  (Command Line)
-An introduction to the use of the command line using BASH.
+### *SWC - Bash  (Command Line)
+An introduction to the use of the command line using bash.
 
 - Intended level: beginner/novice
-- Language: BASH
+- Language: bash
 
 ### Intermediate/Advanced use of the Tidyverse
 
@@ -99,7 +99,7 @@ This workshop is intended to convey the basics of scraping information from the 
 This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs.
 
 - Intended level: beginner/novice 
-    - SWC BASH (command line) would be beneficial
+    - SWC bash (command line) would be beneficial
       
 ### Introduction to Python
 
@@ -109,7 +109,7 @@ An introductory workshop to understand the basics of the python language for pro
 - Language: Python (3)
 
 
-### Making BASH (Command Line) Friendly
+### Making Bash (Command Line) Friendly
 
 This workshop will cover customising your command line environment such as making programs available on your computer, aesthetic changes to your prompt, keeping track of previous commands. In general setting up your command line environment to make work easier.
 
