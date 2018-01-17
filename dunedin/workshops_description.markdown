@@ -138,3 +138,12 @@ This will cover techniques and tools for effectively managing research proijects
 
 - Intended level: beginner/novice
 
+### Introduction to LaTeX
+
+This will proivde an introduction to the popular and powerful document prepartion system, LaTeX. Many students use LaTeX for writing their PhD and MSc theses, and it is commonly used for writing research papers (particularly in more computational and/or mathematical disciplines).
+
+- Intended level: intermediate
+    - intro to bash beneficial
+
+
+
