@@ -134,7 +134,7 @@ This will present some more advanced Shell techniques and "power tips" that will
     
 ### Research Project Management
 
-This will cover techniques and tools for effectively managing research proijects, and their associated data (and metadata).  While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice.
+This will cover techniques and tools for effectively managing research projects, and their associated data (and metadata).  While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice.
 
 - Intended level: beginner/novice
 
