@@ -1,6 +1,6 @@
 # ResBaz 2018 workshop information
 
-The section below provide details of the workshop sessions that will be run during ResBaz 2018.
+The section below provide details of the workshop options for ResBaz 2018.
 
 Note that:
 - A "\*" denotes the recommended introductory data analysis stream: this series of workshops will provide beginners with a solid introduction to key programming and reproducible research skills.
