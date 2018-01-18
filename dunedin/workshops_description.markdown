@@ -144,6 +144,3 @@ This will proivde an introduction to the popular and powerful document prepartio
 
 - Intended level: intermediate
     - intro to bash beneficial
-
-
-
