@@ -1,6 +1,6 @@
 # ResBaz 2018 workshop information
 
-The section below provide details of the workshop sessions that will be run during ResBaz 2018.
+The section below provide details of the workshop options for ResBaz 2018.
 
 Note that:
 - A "\*" denotes the recommended introductory data analysis stream: this series of workshops will provide beginners with a solid introduction to key programming and reproducible research skills.
@@ -29,11 +29,11 @@ This workshop and will extend on making functions in R and go through how to tra
 
 ## Day 2
 
-### *SWC - BASH  (Command Line)
-An introduction to the use of the command line using BASH.
+### *SWC - Bash  (Command Line)
+An introduction to the use of the command line using bash.
 
 - Intended level: beginner/novice
-- Language: BASH
+- Language: bash
 
 ### Intermediate/Advanced use of the Tidyverse
 
@@ -99,7 +99,7 @@ This workshop is intended to convey the basics of scraping information from the 
 This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs.
 
 - Intended level: beginner/novice 
-    - SWC BASH (command line) would be beneficial
+    - SWC bash (command line) would be beneficial
       
 ### Introduction to Python
 
@@ -109,7 +109,7 @@ An introductory workshop to understand the basics of the python language for pro
 - Language: Python (3)
 
 
-### Making BASH (Command Line) Friendly
+### Making Bash (Command Line) Friendly
 
 This workshop will cover customising your command line environment such as making programs available on your computer, aesthetic changes to your prompt, keeping track of previous commands. In general setting up your command line environment to make work easier.
 
@@ -134,12 +134,13 @@ This will present some more advanced Shell techniques and "power tips" that will
     
 ### Research Project Management
 
-This will cover techniques and tools for effectively managing research proijects, and their associated data (and metadata).  While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice.
+This will cover techniques and tools for effectively managing research projects, and their associated data (and metadata).  While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice.
 
 - Intended level: beginner/novice
 
 ### Introduction to LaTeX
 
-This mini workshop will cover how to create docments using LaTeX
+This will proivde an introduction to the popular and powerful document prepartion system, LaTeX. Many students use LaTeX for writing their PhD and MSc theses, and it is commonly used for writing research papers (particularly in more computational and/or mathematical disciplines).
 
-- Intended level: beginner/novice
+- Intended level: intermediate
+    - intro to bash beneficial
