@@ -7,6 +7,6 @@
 
 <p>Etherpads:
 <a href='http://pad.software-carpentry.org/ResBaz-Perth-2018-R'>For the R stream</a><br/>
-<a href='http://pad.software-carpentry.org/ResBaz-Perth-2018-Python'>For the Python stream</a><br/>
+<a href='http://pad.software-carpentry.org/uwa-swc'>For the Python stream</a><br/>
 <a href='http://pad.software-carpentry.org/ResBaz-Perth-2018-Genomics'>For the Genomics stream</a><br/>
 </p>
