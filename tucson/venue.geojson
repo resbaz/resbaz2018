@@ -5,11 +5,11 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates":[170.513167, -45.866627]
+                "coordinates":[32.2323, -110.9490]
             },
             "properties": {
                 "marker-color": "#2b3990",
-                "details": "Castle Lecture Theatres, University of Otago"
+                "details": "Integrated Learning Center, University of Arizona, Tucson"
             }
         }
     ]
