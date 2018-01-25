@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Tucson 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(uofa.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Tucson">
+    <h1>Tucson</h1>
+    <h2>March 29 and 30, 2018</h2>
+  </resbaz-header>
+  <article>
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>This event will be held in the Integrated Learning Center at the University of Arizona in Tucson, Arizona.</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      
+    </section>
+    <hr/>
+    <section id="schedule">
+      <h1>Sessions</h1>
+      <p>Click on the name of each session to discover more!</p>
+      
+      <h2>Main streams - Software Carpentry</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="Stream 1">
+	  </expandable-heading>
+	  <expandable-heading title="Stream 2">
+	  </expandable-heading>
+	  <expandable-heading title="Stream 3">
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Additional streams</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="Substream 1">
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Preliminary timetable</h2>
+      <csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>    
+    </section>
+    <hr/>
+    <section id="come-along">
+	    <p>Please email <a href="mailto:rezbazaz@gmail.com">rezbazaz@gmail.com</a> to be added to the wait list.</p>
+    </section>
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="resbazaz@gmail.com" twitter="resbazaz" facebook="uarizona"></contact-icons>
+      </div>
+    </section>
+  </article>
+</body>
+</html>
