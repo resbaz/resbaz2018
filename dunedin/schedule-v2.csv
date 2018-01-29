@@ -1,9 +1,12 @@
 ," Day 1: Wednesday, 7th February "," Day 2: Thursday, 8th February","Day 3: Friday, 9th February"
 ,,,
 8:45am,Welcome and Key Story 1,Key Story 3,Key Story 5
-9:30am,R (Software Carpentry) or Intermediate R,Unix Shell (Software Carpentry) or Advanced R,Version Control with Git (Software Carpentry) or Reproducible Research
+9:30am,R (Software Carpentry) or Making Packages in R,Unix Shell (Software Carpentry) or Intermediate/Advanced use of the Tidyverse in R ,Version Control with Git (Software Carpentry) or Reproducible Research
 12:30pm,LUNCH,LUNCH,LUNCH
 1:15pm,Key Story 2,Key Story 4,Key Story 6
-2:00pm,Mini-workshops: Data manipulation and plotting; Shiny Apps in R; Webscraping,Mini-workshops: Intro to Python (SWC); Friendly Shell and Regex; Advanced shell and Intro LaTeX,Mini-workshops: Intro to NeSI; Research Project Management
+2:00pm,Mini-workshops:,Mini-workshops:,Mini-workshops: 
+,Data manipulation and plotting,Intro to Python (SWC),Intro to NeSI
+,Shiny Apps in R,Friendly Shell and Regex,Research Project Management
+,Webscraping,Advanced shell and Intro LaTeX,
 4:30pm,Discussion session,Discussion session,Closing remarks and feedback
 5:30pm,Evening social event,Dinner,
