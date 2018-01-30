@@ -1,27 +1,28 @@
 ," Day 1: Thursday, 29 March "," Day 2: Friday, 30th March"
 "9:00-All Day","Registration","Registration",
-"10:00-12:00","Thursday AM Talks","Open Science Framework Workshop",
-"12:00-14:00","Lunch Panel: Open Science Discussion","Lunch Panel",
-"14:00-16:00","Thursday Afternoon Talks","Friday Afternoon Talks",
-"16:00-???","Birds of Feather Dinners"
-"???-???","No Drinks Sez Jen","Drinks Somewhere",
+"10:00-12:00","Intro to Python/Intro to R","Open Science Framework Workshop",
+"12:00-14:00","Lunch and Lightning Talks","Lunch Panel:",
+"12:00-13:30","Data Management for Postdocs","",
+"14:00-16:00","Thursday Afternoon Workshop","Lightning Talks: Check the Board!",
+"16:00-???","First Day Wrap Up and Free Stuff Giveaway","",
+"???-???","Birds of Feather Dinners","Drinks Somewhere",
 
 Thursday AM
 Intro Python with Jupyter Notebooks (Software Carpentry Style), Blake
-Intro to R, 
+Intro to R, Jeff?
 
-Thursday Sometime
+Thursday PM
 Fernando's Data Management for Postdocs
 
 Friday AM
 OSF Workshop
 
-Friday Afternoon
+Friday PM
 Creating Interactive Visualizations with Jupyter Notebooks, Blake
-
-Panels
-Open Science with Open Science Framework
-
 
 Afternoon Lightning Talks Unconference 
 Collaboration with Jupyter Notebooks and Beaker Browser, Julian
+
+Panels
+Thursday: Open Science with Open Science Framework
+Friday: Getting a Job? Betsey Wagener?, Joan Palmiter Bajorek?, Calline Sanchez, VP from IBM?
