@@ -14,5 +14,5 @@
 | Cloud based suite for Bioinformatics | Modelling biodiversity and Climate impact platform |
 |||
 |**Machine Learning**  | **HPC Carpentry**|
-|Hands-on workshop around the process of creating a classifier to solve an image analysis problem using scikit-learn and the broader Python numerical ecosystem| Learn how to run your code on the HPC|
+|Hands-on workshop around the process of creating a classifier to solve an image analysis problem using scikit-learn and the broader Python numerical ecosystem| Learn how to run your code on the HPC                                                                                                                  |
 |||
