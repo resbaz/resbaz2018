@@ -1,6 +1,6 @@
-
+{table-plus:columnStyles=width:170px,width:170px}
 | | |
-| ------- | ------- |
+| :-------: | :-------: |
 | **Software Carpentry in Python** | **Software Carpentry in R** |
 | Introduction to Python (and more) for Researchers | Introduction to R (and more) for Researchers |
 |||
@@ -16,3 +16,4 @@
 |**Machine Learning**  | **HPC Carpentry**|
 |Hands-on workshop around the process of creating a classifier to solve an image analysis problem using scikit-learn and the broader Python numerical ecosystem| Learn how to run your code on the HPC|
 |||
+{table-plus} 
