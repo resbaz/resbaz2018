@@ -16,3 +16,6 @@
 |**Introduction to Machine Learning**  | **Introductory HPC Carpentry**|
 |Hands-on workshop around the process <br>of creating a classifier to solve an image <br>analysis problem using scikit-learn<br> and the broader Python numerical ecosystem| Learn how to run your code on the HPC in a hands on tutorial|
 |||<br><br>
+|**Introduction to ImageJ/FIJI**||<br><br>
+|Using ImageJ/FIJI, this hands-on Workshop<br> provides a foundation in image analysis||<br><br>
+|||<br><br>
