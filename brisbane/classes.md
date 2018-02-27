@@ -10,7 +10,7 @@
 |**Library Carpentry** |**Digital Humanities - Methods and Tools** |
 |Software and data skills training made by librarians, for librarians |Suite of lessons focused on Digital Humanities, Arts and Social Science |
 |||<br><br>
-| ** RNA-Seq in Galaxy - Genomics Virtual Lab** | **Innovative tools for mapping & modelling species distributions** |
+| **RNA-Seq in Galaxy with Genomics Virtual Lab** | **Innovative tools for mapping & modelling species distributions** |
 | Using a cloud based suite for Bioinformatics - learn how to create and execute a complete RNA-seq analysis pipeline | Using Atlas of Living Australia (ALA) and the Biodiversity and Climate Change Virtual Laboratory (BCCVL) to explore species data and ecological models to understand the relationships between species and their environment |
 |||<br><br>
 |**Introduction to Machine Learning**  | **Introductory HPC Carpentry**|
