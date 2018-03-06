@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Wellington 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/The_Perth_skyline_in_January_2016.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Perth">
+    <h1>Perth</h1>
+    <h2>23 - 25th January, 2018</h2>
+    <div class="actions">
+      <a href="#come-along">
+        <paper-button raised>Come Join Us</paper-button>
+      </a>
+    </div>
+  </resbaz-header>
+  <article>
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>The event will be held in the UWA Business School Ernst and Young LT, Rooms 101, 160, 161 and 162, as well as the Business School foyer.</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      
+      <p>Each participant will prepare a small poster detailing the tools they work with and the areas they would like to get started in. These posters will be displayed for the duration of the event in the Business School foyer.</p>
+
+    </section>
+    <hr/>
+    <section id="schedule">
+      <h1>Schedule</h1>
+      <remote-markdown url="software_carpentry.md">
+        <!-- This element allows markdown to be styled the same as the page -->
+        <div class="markdown-html"></div>
+      </remote-markdown>
+      <h2>Day 3: Community Day</h2>
+			<p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
+      <p>Click on the name of each session to discover more!</p>
+      <simple-columns>
+        <div>
+          <expandable-heading title="How to write a reproducible paper">
+            Modern research relies heavily on software and code. These aspects of the research methodology are rarely (if ever) documented in modern research papers, which has led to a reproducibility crisis in published computational research. This session, run by Michael David Wilson, will outline the practical steps you can take to ensure that your papers are reproducible.
+          </expandable-heading>
+          <expandable-heading title="Machine learning. From zero to hero!">
+            Machine learning has become a valuable tool for people working with large amount of data. In this session we'll learn how to extract meaning from data using several techniques implemented in scikit-learn from John Vial.
+          </expandable-heading>
+          <expandable-heading title="Using EndNote effectively">
+            EndNote is the most common reseach citation manager. In this session Armin Scheben will show you caveats and tricks so that you can use EndNote in an effective manner.
+          </expandable-heading>
+          <expandable-heading title="Ethical issues in publication and authorship">
+            Publishing is fraught with ethical tripping stones. In this session Joanne Edmonston will talk you through the problems you may face!
+          </expandable-heading>
+          <expandable-heading title="Structuring an effective conference presentation">
+            It is not easy to summarise months of research into a 20 minutes talk. Good that Krystyna Haq will show you how it's done!
+          </expandable-heading>
+          <expandable-heading title="Data Science In The Cloud">
+            AWS as a research platform reduces the cost of trying new ideas and provides virtually unlimited storage and compute resources. Andrea Bedini (KZN Group) will show you how to get started with doing data science on the cloud, in perfect security and control over the budget. The workshop will start with a brief overview of AWS and dive straight into a hands-on lab with applications to deep learning, satellite imagery and life sciences.
+          </expandable-heading>
+        </div>
+        <div>
+          <expandable-heading title="Getting your research published">
+            There are many tricks and caveats in getting your research into a journal. In this session Prof. Dave Edwards will take you through what he has learned in decades of his work.
+          </expandable-heading>
+          <expandable-heading title="How to condense your research into a short 'elevator pitch'">
+            Ever needed to explain your research in two sentences to your grandmother, and struggled? Come along and let Armin Scheben show you how to condense your research into an elevator pitch.
+          </expandable-heading>
+          <expandable-heading title="Analysing qualitative data with NVivo">
+            Michael Azariadis will show you how to use NVivo, powerful data anysis software that supports qualitative and mixed-methods research. (WARNING: Places are limited due to software licensing)
+          </expandable-heading>
+          <expandable-heading title="Planning for your future career">
+            Academia? Industry? The UWA Graduate School will hold a workshop on planning your career!
+          </expandable-heading>
+          <expandable-heading title="Making the most of your conference poster">
+            Conferences are full of posters clamoring for attention - Krystyna Haq will show you how to make your poster get the most attention.
+          </expandable-heading>
+          <expandable-heading title="Managing your data throughout the research lifecycle with CloudStor">
+            Research data is more effectively managed in cloud storage services when the research and data curation lifecycle are aligned in the mind of the researcher.  This workshop will cover: key features of both lifecycles that aid with research data management and point to existing functions of CloudStor that can be used, e.g. when to use upload versus sync (to load data into active storage) and introduce new research relevant features coming up on the roadmap.
+          </expandable-heading>
+
+        </div>
+      </simple-columns>
+      <p>Here's the preliminary timeplan. <b>IMPORTANT</b>: We are running two repeats of the 'Analysing qualitative data with Nvivo' course and places are strictly limited to 10 people each, if you want to attend please send us an email to <a href-;'mailto:resbaz2018-lib@uwa.edu.au'>resbaz2018-lib@uwa.edu.au</a>. Please also note that the Nvivo courses are in the <i>Law Library</i>.</p>
+      <csv-table url="community_day_schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
+    </section>
+    <hr/>
+    <section id="come-along">
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+      <div class="center" style="margin-top: 2em">
+        <!-- <a href="https://www.eventbrite.com.au/e/the-research-bazaar-tickets-29662163329">
+        <paper-button noink>Register</paper-button> -->
+        </a>
+      </div>
+    </section>
+    <hr/>
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="resbaz2018-lib@uwa.edu.au" twitter="resbaz" facebook="universitywa"></contact-icons>
+      </div>
+    </section>
+  </article>
+  <footer>
+    Copyright &copy; Research Platform Services, University of Melbourne, 2018
+    <br/>Picture of Perth skyline: <a href='https://en.wikipedia.org/wiki/Tourism_in_Perth#/media/File:The_Perth_skyline_in_January_2016.jpg'>Gary Tindale, CC-BY-2.0</a>
+  </footer>
+</body>
+</html>
