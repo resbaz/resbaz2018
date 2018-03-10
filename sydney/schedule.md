@@ -6,8 +6,8 @@ The schedule and workshop streams will be coming soon. If you would like to deli
 |||||<br><br>
 | Morning session | Workshops<br>& morning tea | Workshops<br>& morning tea | Festival Day<br>& morning tea |
 |||||<br><br>
-| Midday | Lunch & posters | Lunch & posters | Lunch & sponsor stalls |
+| Midday | Lunch & posters | Lunch & posters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Lunch & sponsor stalls |
 |||||<br><br>
-| Afternoon session | Workshops<br>& afternoon tea | Workshops<br>& afternoon tea | Festival Day<br>& afternoon tea |
+| Afternoon session&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Workshops<br>& afternoon tea | Workshops<br>& afternoon tea | Festival Day<br>& afternoon tea |
 |||||<br><br>
 | Evening | Social activities | Social activities | Wrap up |
