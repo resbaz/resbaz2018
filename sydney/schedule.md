@@ -1,4 +1,6 @@
-The schedule and workshop streams will be coming soon. If you would like to deliver a lightning talk on the Festival Day (Day 3) about your research or work or studies or hobbies [please fill out this form and let us know about your ideas!](https://docs.google.com/forms/d/e/1FAIpQLSdLGw_gfABKlOm3XK1jABr4-ZKPQRJiBDsk3eA5vIchbj9tIw/viewform)
+The ReBaz program runs for 3 days. The first 2 days will focus on learning new skills through hands-on workshops, and several streams of workshops will be running at the same time to satisfy demand. Day 3 is Festval Day, a chance to relax and get to know the people you've been learning with. Festivities will include [lightning talks](https://docs.google.com/forms/d/e/1FAIpQLSdLGw_gfABKlOm3XK1jABr4-ZKPQRJiBDsk3eA5vIchbj9tIw/viewform), tech stalls, and unconference activities.
+
+**Registrations for ResBaz will open in April**. If you would like to be notified about the event as more information becomes available, please subscribe to our mailing list below. If you have specific questions send us an email via the link at the bottom.
 
 | Time | Day 1 | Day 2 | Day 3 |
 | :--- | :--- | :--- | :--- |
