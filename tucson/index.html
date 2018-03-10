@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ResBaz Brisbane 2018</title>
+  <title>ResBaz Tucson 2018</title>
 
   <link rel="stylesheet" src="../css/style.css"/>
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
@@ -29,19 +29,14 @@
   <style is="custom-style">
   resbaz-header {
     --header-height: 50vh;
-    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/BrisbaneFromSky.JPG);
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(uofa.jpg);
   }
   </style>
 </head>
 <body unresolved>
-  <resbaz-header title="ResBaz Brisbane">
-    <h1>Brisbane</h1>
-    <h2>6-8 June, 2018</h2>
-    <div class="actions">
-      <a href="#come-along">
-        <paper-button raised>Come Join Us</paper-button>
-      </a>
-    </div>
+  <resbaz-header title="ResBaz Tucson">
+    <h1>Tucson</h1>
+    <h2>March 29 and 30, 2018</h2>
   </resbaz-header>
   <article>
     <section id="about">
@@ -50,60 +45,30 @@
       </remote-markdown>
     </section>
     <hr/>
-
-<section="classes">
-	      <h1>Workshops</h1><br>
-      <remote-markdown url="classes.md">
-        
-	 </remote-markdown>     
-	</section>
-    <hr/>
-	  
-    <section id="schedule">
-      <h1>Schedule</h1>
-      <remote-markdown url="software_carpentry.md">
-        <!-- This element allows markdown to be styled the same as the page -->
-        <div class="markdown-html"></div>
-      </remote-markdown>
- <h2>Schedule coming soon</h2>
-	    We have an extended schedule and class options coming soon. If you would like to stay informed, or offer to teach a class, please fill out the form in "Come along". 
- 	</br><csv-table url="community_day_schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
-
-	  
-	  </section>
-
-    <hr/>	
     <section id="venue">
       <h1>Venue</h1>
-      <p>The event will be held at Southbank campus of Griffith University, Brisbane</p>
+      <p>This event will be held in the Integrated Learning Center at the University of Arizona in Tucson, Arizona.</p>
 
       <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
       
-      <p>Each participant will prepare a small poster detailing the tools they work with and the areas they would like to get started in.</p>
-
+    </section>
+    <hr/>
+    <section id="schedule">
+      <h1>Sessions</h1>
+      <h2>Preliminary timetable</h2>
+      <csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"/>
     </section>
     <hr/>
     <section id="come-along">
-      <remote-markdown url="come_along.md">
-        <div class="markdown-html"></div>
-      </remote-markdown>
-      <div class="center" style="margin-top: 2em">
-        <!-- <a href="https://www.eventbrite.com.au/e/the-research-bazaar-tickets-29662163329">
-        <paper-button noink>Register</paper-button> -->
-        </a>
-      </div>
+	    <p>Please email <a href="mailto:rezbazaz@gmail.com">rezbazaz@gmail.com</a> to be added to the wait list.</p>
     </section>
     <hr/>
     <section id="contact-us">
       <h1>Contact</h1>
       <div class="center">
-	      Contact your local hacky hour or email us below.
-        <contact-icons email="resbazbris@gmail.com"></contact-icons>
+        <contact-icons email="resbazaz@gmail.com" twitter="resbazaz" facebook="resbazaz"></contact-icons>
       </div>
     </section>
   </article>
-  <footer>
-    Copyright &copy; Research Platform Services, University of Melbourne, 2018
-  </footer>
 </body>
 </html>
