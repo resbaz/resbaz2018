@@ -2,7 +2,7 @@ The schedule and workshop streams will be coming soon. If you would like to deli
 
 | Time | Day 1 | Day 2 | Day 3 |
 | :--- | :--- | :--- | :--- |
-| Early | Welcome & registration |||
+| Early | Welcome & registration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |||
 |||||<br><br>
 | Morning session | Workshops<br>& morning tea | Workshops<br>& morning tea | Festival Day<br>& morning tea |
 |||||<br><br>
