@@ -35,6 +35,27 @@
 		fill-opacity:"0.8"
 	    }
   }
+
+	#schedule > table {
+		border: 1px solid grey;
+		border-collapse: collapse;
+	}
+
+	#schedule>table td, #schedule>table th {
+		border-top: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	firstrow {
+		background-color: #2c3e50;
+		color: white;
+		text-align: left;
+	}
+
+	#schedule>table #liOne {padding-bottom:0.5em}
+
+	.ThursLunch, .ThursWrap, .OSFW, .FriPMWorkshops, .FriDrinks { background-color:#f2f2f2; }
+
   </style>
 </head>
 <body unresolved>
@@ -59,8 +80,22 @@
     <hr/>
     <section id="schedule">
       <h1>Sessions</h1>
-      <h2>Preliminary timetable</h2>
-      <csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"/>
+      <!--<csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"/>-->
+      <table class="table" style="border-spacing:0.3em">
+	<thead>
+		<tr id="firstrow"><th></th><th>Thursday</th><th>Friday</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>All Day</td><td class="regrow">Registration</td><td class="regrow">Registration</td></tr>
+		<tr><td>9am</td><td>-------</td><td class="OSFW">Open Science Framework Workshop</td></tr>
+		<tr><td>10 - 11am</td><td><ul><li>Intro to Python</li><li id="liOne">Intro to R</li></ul></td><td class="OSFW">Open Science Framework Workshop (cont'd)</td></tr>
+		<tr><td>Noon - 1pm</td><td class="ThursLunch"><ul><li>Lunch, Socialize, and Advertise Your Needs</li><li>Workshop: Data Management for Postdocs</li></ul></td><td>Panel: Research Careers Outside of the Academy</td></tr>
+		<tr><td>2 - 3pm</td><td>Panel: Open and Reproducible Science</td><td class="FriPMWorkshops"><ul><li id="liOne">Bring Your Data for Visualization using Jupyter Notebooks</li><li>Machine Learning for anomaly detection using Python & Apache Spark</li></ul></td></tr>
+		<tr><td>4pm</td><td class="ThursWrap">First Day Wrap Up and Free Stuff Giveaway</td><td>Raffle</td></tr>
+		<tr><td>5:30pm</td><td>Birds of a Feather Dinners</td><td class="FriDrinks">Drinks Somewhere</td></tr>
+	</tbody>
+    </table>
+
     </section>
     <hr/>
     <section id="come-along">
