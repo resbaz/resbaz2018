@@ -37,24 +37,27 @@
   }
 
 	#schedule > table {
-		border: 1px solid grey;
 		border-collapse: collapse;
 	}
 
 	#schedule>table td, #schedule>table th {
-		border-top: 1px solid #ddd;
+		border-top: 1px solid #f2f2f2;
 		padding: 8px;
 	}
 
-	firstrow {
+	#firstrow {
 		background-color: #2c3e50;
 		color: white;
 		text-align: left;
 	}
 
+	#firstrow th:first-of-type { width:110px; }
+
 	#schedule>table #liOne {padding-bottom:0.5em}
 
-	.ThursLunch, .ThursWrap, .OSFW, .FriPMWorkshops, .FriDrinks { background-color:#f2f2f2; }
+	.regRow, .ThursLunch, .ThursWrap, .OSFW, .FriPMWorkshops, .FriDrinks { background-color:#f2f2f2; }
+
+	.OSWF { vertical-align:top; }
 
   </style>
 </head>
@@ -86,10 +89,10 @@
 		<tr id="firstrow"><th></th><th>Thursday</th><th>Friday</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>All Day</td><td class="regrow">Registration</td><td class="regrow">Registration</td></tr>
-		<tr><td>9am</td><td>-------</td><td class="OSFW">Open Science Framework Workshop</td></tr>
-		<tr><td>10 - 11am</td><td><ul><li>Intro to Python</li><li id="liOne">Intro to R</li></ul></td><td class="OSFW">Open Science Framework Workshop (cont'd)</td></tr>
-		<tr><td>Noon - 1pm</td><td class="ThursLunch"><ul><li>Lunch, Socialize, and Advertise Your Needs</li><li>Workshop: Data Management for Postdocs</li></ul></td><td>Panel: Research Careers Outside of the Academy</td></tr>
+		<tr><td>All Day</td><td class="regRow">Registration</td><td class="regRow">Registration</td></tr>
+		<tr><td>9am</td><td>-------</td><td></td></tr>
+		<tr><td>10 - 11am</td><td><ul><li>Intro to Python</li><li id="liOne">Intro to R</li></ul></td><td class="OSFW">Open Science Framework Workshop</td></tr>
+		<tr><td>Noon - 1pm</td><td class="ThursLunch"><ul><li id="liOne">Lunch, Socialize, and Advertise Your Needs</li><li>Workshop: Data Management for Postdocs</li></ul></td><td>Panel: Research Careers Outside of the Academy</td></tr>
 		<tr><td>2 - 3pm</td><td>Panel: Open and Reproducible Science</td><td class="FriPMWorkshops"><ul><li id="liOne">Bring Your Data for Visualization using Jupyter Notebooks</li><li>Machine Learning for anomaly detection using Python & Apache Spark</li></ul></td></tr>
 		<tr><td>4pm</td><td class="ThursWrap">First Day Wrap Up and Free Stuff Giveaway</td><td>Raffle</td></tr>
 		<tr><td>5:30pm</td><td>Birds of a Feather Dinners</td><td class="FriDrinks">Drinks Somewhere</td></tr>
@@ -99,8 +102,8 @@
     </section>
     <hr/>
     <section id="come-along">
-      <p>To register for ResBaz please use our form <a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1">here</a></p>
-      <p>To register for the Data Management Workshop on Thursday, please register <a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">here</a></p>
+	    <p>To register for ResBaz please use our form <b><a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1">here</a></b></p>
+	    <p>To register for the Data Management Workshop on Thursday, please register <b><a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">here</a></b></p>
     </section>
     <hr/>
     <section id="contact-us">
