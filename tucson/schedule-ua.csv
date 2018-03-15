@@ -1,7 +1,11 @@
 ,Thursday,Friday
-"9am-All Day","Registration","Registration"
-"10am-Noon","Intro to Python | Intro to R","Open Science Framework Workshop"
-"Noon-2pm","Workshop: Data Management for Postdocs | Lunch, Socialize, and Advertise Your Needs","Panel: Research Careers Outside of the Academy"
-"2pm-4pm","Panel: Open and Reproducible Science","Bring Your Data for Visualization using Jupyter Notebooks"
-"4pm-4:30pm","First Day Wrap Up and Free Stuff Giveaway","Raffle"
-"5:30pm onwards","Birds of a Feather Dinners","Drinks Somewhere"
+All Day,Registration,Registration
+9am,-------,Open Science Framework Workshop
+10am,Intro to Python | Intro to R,Open Science Framework Workshop
+11am,Intro to Python | Intro to R,Open Science Framework Workshop
+Noon,"Workshop: Data Management for Postdocs | Lunch, Socialize, and Advertise Your Needs",Panel: Research Careers Outside of the Academy
+1pm,"Workshop: Data Management for Postdocs | Lunch, Socialize, and Advertise Your Needs",Panel: Research Careers Outside of the Academy
+2pm,Panel: Open and Reproducible Science,Bring Your Data for Visualization using Jupyter Notebooks | Machine Learning for anomaly detection using Python & Apache Spark
+3pm,Panel: Open and Reproducible Science,Bring Your Data for Visualization using Jupyter Notebooks | Machine Learning for anomaly detection using Python & Apache Spark
+4pm,First Day Wrap Up and Free Stuff Giveaway,Raffle
+5:30pm,Birds of a Feather Dinners,Drinks Somewhere
