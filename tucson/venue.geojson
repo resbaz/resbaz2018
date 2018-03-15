@@ -143,11 +143,14 @@
 				]
 			},
 			"properties": {
-				"details": "Integrated Learning Center, University of Arizona, Tucson"
+				"details": "Main Library - University of Arizona, Tucson"
 			},
 			"style":{
-				"stroke-width": "3",
-				"fill-opacity": 0.6
+				"stroke-width": "2",
+				"fillOpacity": 0.8,
+				"fillColor": "#000099",
+				"color": "#cc0000"
+
 			}
         }
     ]
