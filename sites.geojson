@@ -67,6 +67,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./dunedin'>Dunedin</a>"
             }
+	 },
+	 {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[-110.949370, 32.231587]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://resbazaz.github.io/resbaz2018/tucson'>Tucson</a>"
+            }
 	 }
     ]
 }
