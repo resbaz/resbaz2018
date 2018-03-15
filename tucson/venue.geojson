@@ -152,6 +152,16 @@
 				"color": "#cc0000"
 
 			}
+        },
+	{
+                "type":"Feature",
+                "geometry": {
+                        "type":"Point",
+                        "coordinates": [-110.949398,32.231699]
+                },
+                "properties": {
+                        "details": "Main Library - University of Arizona, Tucson"
+                }
         }
     ]
 }
