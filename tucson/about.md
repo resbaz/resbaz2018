@@ -2,7 +2,7 @@
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2018, events will be held at a number of university campuses around the globe.
 
-<b>ResBaz Tucson will be hosted by the University of Arizona on March 29th and 30th, 2018.</b> It is organized and sponsored by collaborators at the University of Arizona.
+<b>ResBaz Tucson will be hosted by the University of Arizona on March 29th and 30th, 2018.</b> It is organized by collaborators at the University of Arizona and sponsored by the UA Libraries.
 
 The Tucson Research Bazaar is a (free-of-charge) 2-day intensive conference where researchers come together to up-skill in ‘next generation digital research tools and skills’.  In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!
 
