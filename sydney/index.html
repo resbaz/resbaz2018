@@ -36,7 +36,7 @@
 <body unresolved>
   <resbaz-header title="ResBaz 2018 Sydney">
     <h1>ResBaz Sydney</h1>
-    <h1>3 - 5 July, 2018</h1>
+    <h2>3 - 5 July, 2018</h2>
      <div class="actions">
       <a href="#mail-list">
         <paper-button raised>Come Join Us</paper-button>
@@ -44,12 +44,14 @@
     </div>
   </resbaz-header>
   <article>
+    
     <section id="about">
       <remote-markdown url="about.md">
         <div class="markdown-html"></div>
       </remote-markdown>
     </section>
     <hr/>
+    
     <section id="classes">
       <h1>Workshops</h1>
       <remote-markdown url="classes.md">
@@ -57,27 +59,23 @@
       </remote-markdown>     
     </section>
     <hr/>
+    
     <section id="schedule">
       <h1>Schedule</h1>
-      <remote-markdown url="schedule.md">
+      <csv-table url="schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 100%"></embedded-google-sheet>
+      <!--<remote-markdown url="schedule.md">
         <div class="markdown-html"></div>
-      </remote-markdown>
+      </remote-markdown>-->
     </section>
     <hr/>
+    
     <section id="venue">
       <h1>Venue</h1>
       <p>ResBaz Sydney will be held in Building E7B at Macquarie University, 3-5 July, 2018.</p>
       <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
     </section>
     <hr/>
-<!--    <section id="come-along">
-      <remote-markdown url="come_along.md">
-        <div class="markdown-html">
-        <p>Details coming soon.</p>
-        </div>
-      </remote-markdown>
-    </section>
--->
+    
     <section id="mail-list">
       <div class="center"> 
         <script type="text/javascript">
@@ -90,7 +88,8 @@
         </form>
       </div>
     </section>
-    <hr/>   
+    <hr/>
+    
     <section id="contact-us">
       <h1>Contact Us</h1>
       <div class="center">
