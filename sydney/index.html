@@ -37,19 +37,21 @@
   <resbaz-header title="ResBaz 2018 Sydney">
     <h1>ResBaz Sydney</h1>
     <h2>3 - 5 July, 2018</h2>
-    <!--<div class="actions">
-      <a href="#come-along">
+     <div class="actions">
+      <a href="#mail-list">
         <paper-button raised>Come Join Us</paper-button>
       </a>
-    </div>-->
+    </div>
   </resbaz-header>
   <article>
+    
     <section id="about">
       <remote-markdown url="about.md">
         <div class="markdown-html"></div>
       </remote-markdown>
     </section>
     <hr/>
+    
     <section id="classes">
       <h1>Workshops</h1>
       <remote-markdown url="classes.md">
@@ -60,25 +62,20 @@
     
     <section id="schedule">
       <h1>Schedule</h1>
-      <remote-markdown url="schedule.md">
-        <div class="markdown-html"></div>
-      </remote-markdown>
+      The ResBaz program runs for 3 full days. The first 2 days will focus on learning new skills through hands-on workshops, with a number of different streams on offer. The third day, Festival Day, will provide a chance to relax and get to know people you've been learning with. Festivities will include <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLGw_gfABKlOm3XK1jABr4-ZKPQRJiBDsk3eA5vIchbj9tIw/viewform">lightning talks</a>, tech stalls, and unconference activities.</br></br>
+  <b>Registrations will open in April.</b> If you would like to be notified as more information becomes available, please subscribe to our mailing list below. If you have specific questions send us an email via the link at the bottom.
+      <h2>Schedule coming soon</h2>
+      <csv-table url="schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
     </section>
     <hr/>
+    
     <section id="venue">
       <h1>Venue</h1>
       <p>ResBaz Sydney will be held in Building E7B at Macquarie University, 3-5 July, 2018.</p>
       <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
     </section>
     <hr/>
-<!--    <section id="come-along">
-      <remote-markdown url="come_along.md">
-        <div class="markdown-html">
-        <p>Details coming soon.</p>
-        </div>
-      </remote-markdown>
-    </section>
--->
+    
     <section id="mail-list">
       <div class="center"> 
         <script type="text/javascript">
@@ -91,11 +88,12 @@
         </form>
       </div>
     </section>
-    <hr/>   
+    <hr/>
+    
     <section id="contact-us">
       <h1>Contact Us</h1>
       <div class="center">
-        <contact-icons email="resbazsydney@googlegroups.com" ></contact-icons>
+        <contact-icons email="resbazsydney@googlegroups.com" twitter="resbaz"></contact-icons>
       </div>
     </section>
   </article>
