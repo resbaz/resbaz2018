@@ -78,6 +78,17 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='https://resbazaz.github.io/resbaz2018/tucson'>Tucson</a>"
             }
-	 }
+	 },
+     {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[-36.853457, 174.768449]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='https://resbazaz.github.io/resbaz2018/auckland'>Auckland</a>"
+            }
+     }
     ]
 }

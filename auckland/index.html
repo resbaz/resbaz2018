@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Auckland 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 50vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(auckland.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Auckland">
+    <h1>Auckland</h1>
+    <h2>27-29 June, 2018</h2>
+  </resbaz-header>
+  <article>
+    <section id="into">
+      <h1>Coming Soon!</h1>
+      <p>Keep your calendar clear for ResBaz Auckland 2018.</p>
+    </section>
+	  
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+
+<!--
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>The event will be held in the Castle Lecture Theatre complex at the University of Otago</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      
+    </section>
+    <hr/>
+!-->
+
+<!--
+    <section id="schedule">
+      <h1>Sessions</h1>
+      <p> If you haven't previously attended a Software Capentry workshop (or equivalent) it is recommended to take that stream.</p>
+      <p>Click on the name of each session to discover more!</p>
+      
+      <h2>Main streams - Software Carpentry</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="The Unix shell">
+	    Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively.
+	  </expandable-heading>
+	  <expandable-heading title="Programming in R">
+	    The R language provides a flexible and powerful environment for data analysis and visualisation.  This workshop will introduce the R language and will teach you some key programming skills.
+	  </expandable-heading>
+	  <expandable-heading title="Version control with Git">
+	    Version control is the lab notebook of the digital world - it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on.
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+	    
+      <h2>Main streams - Other</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="Making R Packages">
+	    This workshop and will extend on making functions in R and go through how to transform from a function into a documented and installable R package
+	  </expandable-heading>
+	  <expandable-heading title="Intermediate/Advanced Tidyverse in R">
+	    This workshop is intended to cover the tidyverse packages more in depth with a focus on programmatic analysis and database usage.
+	  </expandable-heading>
+	  <expandable-heading title="Reproducible Research">
+	    This workshop will cover markdown and R variants (Rmarkdown, Bookdown, and Blogdown), and version control work flows for the purposes of customised reproducible reports.
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+	    
+      <h2>Additional Mini-workshops</h2>
+
+      <simple-columns>
+        <div>
+          <expandable-heading title="Data manipulation and plotting in R (intro to tidyverse)">
+	    This mini workshop will follow the data manipulation and plotting lessons from the data carpentry ecology workshop. It will introduce the dplyr package for data manipulation in R and ggplot2 for creation of plots. It is intended to provide introductory data exploration and visualisation skills
+	  </expandable-heading>
+	  <expandable-heading title="Shiny for R-based web interfaces">
+	    Want to turn your ground-breaking R analyses into web-based tools for your friends and collaborators?  The "shiny" package for R provides a simple mechanism for building sophisticated web interfaces for interactive data analysis and visualisation - come along and learn how it's done.
+	  </expandable-heading>
+	  <expandable-heading title="Web scraping">
+	    This workshop is intended to convey the basics of scraping information from the web. For example, obtaining data from tables on websites, and cleaning it into a usable format for R.
+	  </expandable-heading>
+	  <expandable-heading title="Introduction to Python programming">
+	    This workshop will provide a basic introduction to programming principles using the Python language. 
+	  </expandable-heading>
+          <expandable-heading title="Making Bash (Command Line) Friendly and Introduction to Regular Expressions">
+	    This workshop will cover customising your command line environment such as making programs available on your computer, aesthetic changes to your prompt, keeping track of previous commands. In general setting up your command line environment to make work easier. This workshop will also introduce the syntax and creation of regular expressions (generalisable search terms) for searching text. 
+	  </expandable-heading>
+	  <expandable-heading title="Advanced Shell and Introduction to LaTeX">
+	    This will present some more advanced Shell techniques and "power tips" that will greatly enhance your everyday use of the Shell. It will also proivde an introduction to the popular and powerful document prepartion system, LaTeX. Many students use LaTeX for writing their PhD and MSc theses, and it is commonly used for writing research papers (particularly in more computational and/or mathematical disciplines).
+	  </expandable-heading>
+	  <expandable-heading title="Introduction to National eScience Infrastructure (NeSI)">
+	    This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs. 
+	  </expandable-heading>
+          <expandable-heading title="Research Project Management">
+	    This will cover techniques and tools for effectively managing research projects, and their associated data (and metadata). While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice. 
+	  </expandable-heading>
+	</div>
+      </simple-columns>
+
+      <h2>Preliminary timetable</h2>
+      <csv-table url="schedule-v2.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>    
+    </section>
+    <hr/>
+!-->
+
+    <section id="come-along">
+	<h1>Express Your Interest</h1>
+        <p>We are now accepting expressions of interest for ResBaz Auckland 2018. If you would like to help organise or contribute to the event this year, or suggest any ideas about what you would like to see in the programme, please <a href="https://goo.gl/forms/4ENAxMquCpnTfdAv2">click here</a> and let us know!</p>
+    </section>
+    <hr/>
+
+
+
+    <section id="contact-us">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="researchdata@auckland.ac.nz"></contact-icons>
+      </div>
+    </section>
+  </article>
+  <footer>
+    Copyright &copy; Research Platform Services, University of Melbourne, 2018
+   </footer>
+</body>
+</html>
