@@ -7,8 +7,6 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>ResBaz Tucson 2018</title>
-
   <link rel="stylesheet" src="../css/style.css"/>
   <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
@@ -27,10 +25,40 @@
   <link rel="import" href="../components/common-style.html">
   <link rel="import" href="../components/resbaz-header.html">
   <style is="custom-style">
-  resbaz-header {
-    --header-height: 50vh;
-    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(uofa.jpg);
-  }
+	resbaz-header {
+		--header-height: 50vh;
+		--header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(uofa.jpg);
+	}
+	.leaflet-overlay-pane g {
+		stroke:"#cc0000";
+		fill: "#000099";
+		stroke-width:"2";
+		fill-opacity:"0.8"
+	}
+  
+	#schedule > table {
+		border-collapse: collapse;
+	}
+
+	#schedule>table td, #schedule>table th {
+		border-top: 1px solid #f2f2f2;
+		padding: 8px;
+	}
+
+	#firstrow {
+		background-color: #2c3e50;
+		color: white;
+		text-align: left;
+	}
+
+	#firstrow th:first-of-type { width:110px; }
+
+	#schedule>table .liOne {padding-bottom:0.5em}
+
+	.regRow, .ThursLunch, .ThursWrap, .OSFW, .FriPMWorkshops, .FriDrinks { background-color:#f2f2f2; }
+
+	.OSFW { vertical-align:top; }
+
   </style>
 </head>
 <body unresolved>
@@ -47,21 +75,35 @@
     <hr/>
     <section id="venue">
       <h1>Venue</h1>
-      <p>This event will be held in the Integrated Learning Center at the University of Arizona in Tucson, Arizona.</p>
+      <p>This event will be held at the Main Library at the University of Arizona in Tucson, Arizona.</p>
 
-      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
       
     </section>
     <hr/>
     <section id="schedule">
       <h1>Sessions</h1>
-      <h2>Preliminary timetable</h2>
-      <csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"/>
+      <!--<csv-table url="schedule-ua.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"/>-->
+      <table class="table" style="border-spacing:0.3em">
+	<thead>
+		<tr id="firstrow"><th></th><th>Thursday</th><th>Friday</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>All Day</td><td class="regRow">Registration</td><td class="regRow">Registration</td></tr>
+		<tr><td>9am</td><td>-------</td><td class="OSFW"></td></tr>
+		<tr><td>10 - Noon</td><td><ul><li class="liOne">Workshop: Intro to Python</li><li>Workshop: Intro to R</li></ul></td><td class="OSFW">Workshop: Open Science Framework</td></tr>
+		<tr><td>Noon - 2pm</td><td class="ThursLunch"><ul><li class="liOne">Lunch, Socialize, and Advertise Your Needs</li><li>Workshop: Data Management for Postdocs</li></ul></td><td>Panel: Research Careers Outside of the Academy</td></tr>
+		<tr><td>2 - 4pm</td><td>Panel: Open and Reproducible Science</td><td class="FriPMWorkshops"><ul><li class="liOne">Bring Your Data for Visualization using Jupyter Notebooks</li><li>Workshop: Machine Learning for anomaly detection using Python & Apache Spark</li></ul></td></tr>
+		<tr><td>4pm</td><td class="ThursWrap">First Day Wrap Up and Free Stuff Giveaway</td><td>Raffle</td></tr>
+		<tr><td>5:30pm</td><td>Birds of a Feather Dinners</td><td class="FriDrinks">Gentle Ben's to Celebrate Another Successful Bazaar</td></tr>
+	</tbody>
+    </table>
+
     </section>
     <hr/>
     <section id="come-along">
-      <p>To register for ResBaz please use our form <a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1">here</a></p>
-      <p>To register for the Data Management Workshop on Thursday, please register <a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">here</a></p>
+	    <p>To register for ResBaz please use our form <b><a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1">here</a></b></p>
+	    <p>To register for the Data Management Workshop on Thursday, please register <b><a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">here</a></b></p>
     </section>
     <hr/>
     <section id="contact-us">
