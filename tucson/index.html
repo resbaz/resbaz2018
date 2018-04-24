@@ -59,6 +59,47 @@
 
 	.OSFW { vertical-align:top; }
 
+	.navlinks {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold
+	}
+	
+	.reg-button {
+		-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ED730E), color-stop(1, #ff8c00) );
+		background:-moz-linear-gradient( center top, #ED730E 5%, #ff8c00 100% );
+		background-color:#ED730E;
+		border-radius: 20px;
+		text-indent:0px;
+		border:1px solid #eeb44f;
+		display:inline-block;
+		color:#ffffff;
+		font-size:17px;
+		font-weight:bold;
+		font-style:normal;
+		height:41px;
+		line-height:41px;
+		width:100px;
+		text-decoration:none;
+		text-align:center;
+		text-shadow:1px 1px 0px #cc9f52;
+	}
+	.reg-button:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff8c00), color-stop(1, #ED730E) );
+		background:-moz-linear-gradient( center top, #ff8c00 5%, #ED730E 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8c00', endColorstr='#ED730E');
+		background-color:#ff8c00;
+	}.reg-button:active {
+		position:relative;
+		top:1px;
+	}
+
   </style>
 </head>
 <body unresolved>
@@ -67,6 +108,14 @@
     <h2>March 29 and 30, 2018</h2>
   </resbaz-header>
   <article>
+    <section id="links">
+	    <ul class="navlinks">
+		    <li><a href="#venue">Venue</a></li>
+		    <li><a href="#schedule">Sessions</a></li>
+		    <li><a href="#come-along">Register</a></li>
+		    <li><a href="#contact-us">Contact</a></li>
+	    </ul>
+    </section
     <section id="about">
       <remote-markdown url="about.md">
         <div class="markdown-html"></div>
@@ -75,7 +124,7 @@
     <hr/>
     <section id="venue">
       <h1>Venue</h1>
-      <p>This event will be held at the Main Library at the University of Arizona in Tucson, Arizona.</p>
+      <p>This event will be held at the Main Library 112A (and area immediately outside the room), at the University of Arizona in Tucson, Arizona.</p>
 
       <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
       
@@ -91,8 +140,8 @@
 	<tbody>
 		<tr><td>All Day</td><td class="regRow">Registration</td><td class="regRow">Registration</td></tr>
 		<tr><td>9am</td><td>-------</td><td class="OSFW"></td></tr>
-		<tr><td>10 - Noon</td><td><ul><li class="liOne">Workshop: Intro to Python</li><li>Workshop: Intro to R</li></ul></td><td class="OSFW">Workshop: Open Science Framework</td></tr>
-		<tr><td>Noon - 2pm</td><td class="ThursLunch"><ul><li class="liOne">Lunch, Socialize, and Advertise Your Needs</li><li>Workshop: Data Management for Postdocs</li></ul></td><td>Panel: Research Careers Outside of the Academy</td></tr>
+		<tr><td>10 - Noon</td><td><ul><li class="liOne">Workshop: Intro to Python</li><li>Workshop: Intro to R</li></ul></td><td class="OSFW"><a href="http://tiny.cc/wkziry">Workshop: Open Science Framework</a></td></tr>
+		<tr><td>Noon - 2pm</td><td class="ThursLunch"><ul><li class="liOne">Lunch, socialize, and advertise your needs</li><li><a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">Workshop: Data Management for Postdocs</a></li></ul></td><td><ul><li class="liOne">Lunch, socialize, and advertise your needs</li><li>Panel: Research Careers Outside of the Academy (includes catered lunch)</li></ul></td></tr>
 		<tr><td>2 - 4pm</td><td>Panel: Open and Reproducible Science</td><td class="FriPMWorkshops"><ul><li class="liOne">Bring Your Data for Visualization using Jupyter Notebooks</li><li>Workshop: Machine Learning for anomaly detection using Python & Apache Spark</li></ul></td></tr>
 		<tr><td>4pm</td><td class="ThursWrap">First Day Wrap Up and Free Stuff Giveaway</td><td>Raffle</td></tr>
 		<tr><td>5:30pm</td><td>Birds of a Feather Dinners</td><td class="FriDrinks">Gentle Ben's to Celebrate Another Successful Bazaar</td></tr>
@@ -102,14 +151,17 @@
     </section>
     <hr/>
     <section id="come-along">
-	    <p>To register for ResBaz please use our form <b><a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1">here</a></b></p>
-	    <p>To register for the Data Management Workshop on Thursday, please register <b><a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx">here</a></b></p>
+	    <h1>Registration</h1>
+	    <p><a href="https://goo.gl/forms/p6Cm99uhbuLM7n4j1" class="reg-button">Register</a> to attend ResBaz, Tucson</p>
+	    <br/>
+	    <p><a href="https://survey.az1.qualtrics.com/jfe/form/SV_40lKhhiO93KLlcx" class="reg-button">Register</a> to attend the Data Management for PostDocs Workshop on Thursday</p>
+	    <p><a href="http://tiny.cc/wkziry" class="reg-button">Register</a> to attend the Open Science Framework Workshops on Friday</p>
     </section>
     <hr/>
     <section id="contact-us">
       <h1>Contact</h1>
       <div class="center">
-        <contact-icons email="resbazaz@gmail.com" twitter="resbazaz" facebook="resbazaz"></contact-icons>
+        <contact-icons email="resbazaz@gmail.com" twitter="resbazaz"</contact-icons>
       </div>
     </section>
   </article>
