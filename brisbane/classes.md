@@ -8,7 +8,7 @@
 | A free, open source, power tool for working with messy data| Smart and effective method for undertaking literature reviews |
 |||<br><br>
 |**Library Carpentry** |**Digital Humanities - Methods and Tools** |
-|Software and data skills training made by librarians, for librarians |Suite of lessons focused on Digital Humanities, Arts and Social Science |
+|Library Carpentry is software and data skills training aimed at the needs and requirements of library professionals. |Suite of lessons focused on Digital Humanities, Arts and Social Science |
 |||<br><br>
 | **RNA-Seq in Galaxy with Genomics Virtual Lab** | **Innovative tools for mapping & modelling<br> species distributions** |
 | Using a cloud based suite for Bioinformatics - learn how to create and execute a complete RNA-seq analysis pipeline | Using Atlas of Living Australia (ALA) and the Biodiversity and Climate Change Virtual Laboratory (BCCVL) to explore species data and ecological models to understand the relationships between species and their environment |
