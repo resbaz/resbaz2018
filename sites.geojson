@@ -76,10 +76,10 @@
             },
             "properties": {
                 "marker-color": "#2b3990",
-                "details": "<a href='./tucson'>Tucson</a>"
+                "details": "<a href='https://resbazaz.github.io/resbaz2018/tucson'>Tucson</a>"
             }
 	 },
-       {
+     {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
