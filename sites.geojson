@@ -89,6 +89,18 @@
                 "marker-color": "#2b3990",
                 "details": "<a href='./auckland'>Auckland</a>"
             }
-     }
+     },
+	  {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[174.778794, -41.279011]
+            },
+
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "<a href='./wellington'>Wellington</a>"
+            }
+	 }
     ]
 }
