@@ -2,9 +2,9 @@
 | | |
 | :-------: | :-------: |
 | <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-Python/">**Software Carpentry in Python**</a>|<a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-R/">**Software Carpentry in R**</a> |
-| <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-Python/">Introduction to Python, bash and Git for Researchers</a> | <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-R/">Introduction to R, bash and Git for Researchers</a> |
+| Introduction to Python, bash and Git for Researchers | Introduction to R, bash and Git for Researchers |
 |||<br><br>
-| **Open Refine** | **Systematic Quantitative Literature Review** |
+| **Open Refine** | <a href="https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review">**Systematic Quantitative Literature Review**</a> |
 | A free, open source, power tool for working with messy data| Smart and effective method for undertaking literature reviews |
 |||<br><br>
 |**Library Carpentry** |**Digital Humanities - Methods and Tools** |
