@@ -1,5 +1,5 @@
 # Come Along
-<p>Registration is not open yet but you can fill out <a href='https://goo.gl/forms/CnAovnbmlSkEAy5I3'>this form</a> to stay informed</p>
+<a href="http://www.cvent.com/d/qtqbnd"><p>Registration is open! Click here to register.</a><br>Registration is $33 including GST and includes all classes and activities including talks & stalls.</p>
 
 # Be involved!
-<p>If you have a great class you're interested in teaching, a talk you feel passionate about presenting, or just want to get involved in Research Bazaar, let us know! <a href='https://goo.gl/forms/CnAovnbmlSkEAy5I3'>Get involved Here!</a></p>
+<p>If you would like to get involved in Research Bazaar, let us know! <a href='https://goo.gl/forms/CnAovnbmlSkEAy5I3'>Get involved Here!</a></p>
