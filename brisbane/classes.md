@@ -1,8 +1,8 @@
 
 | | |
 | :-------: | :-------: |
-| **Software Carpentry in Python** | **Software Carpentry in R** |
-| Introduction to Python (and more) for Researchers | Introduction to R (and more) for Researchers |
+| <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-Python/">**Software Carpentry in Python**</a>|<a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-R/">**Software Carpentry in R**</a> |
+| <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-Python/">Introduction to Python, bash and Git for Researchers</a> | <a href="https://bio-swc-bne.github.io/2018-06-06-ResbazBris-R/">Introduction to R, bash and Git for Researchers</a> |
 |||<br><br>
 | **Open Refine** | **Systematic Quantitative Literature Review** |
 | A free, open source, power tool for working with messy data| Smart and effective method for undertaking literature reviews |
