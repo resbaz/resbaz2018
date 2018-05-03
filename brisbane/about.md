@@ -6,4 +6,3 @@ Griffith University in conjunction with University of Queensland, Queensland Uni
 
 [Click here](https://griffithinsight.wordpress.com/2017/03/01/how-to-research-better-faster-and-smarter/) to see Research Bazaar 2017 at UQ.
 
-<img src="../img/resbaz_logos/ResBaz_transparent_cropped.png" height='1' width='1'>
