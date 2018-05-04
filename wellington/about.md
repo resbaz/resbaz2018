@@ -4,4 +4,4 @@ The Wellington Research Bazaar is a two-and-a-half day conference promoting the 
 <p>
 Researchers at all levels and from all disciplines are encouraged to apply. <br>Research technologists who support researchers to do their job are welcome also. 
 <p>
-We're currenty developing a programme which will bring you a broad range of digital research skills topics - stay tuned or express your interest below.
+We're currently developing a programme which will bring you a broad range of digital research skills topics - stay tuned or express your interest below.
