@@ -1,12 +1,24 @@
-||||
-| :---: | :---: | :---: |
-| **Software Carpentry in Python**<br>An introduction to Python, automation and version control for researchers. Python is used in engineering, science, and the humanities to wrangle and analyze data, including textual data. |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Software Carpentry in R**<br>An introduction to R, automation and version control for researchers. R is used by researchers in all disciplines to perform a wide range of statistical analyses and data visualisations, including text and data mining. |
-||||<br><br>
-| **Excel Fu**<br>This workshop uses one of the most widespread tools, Microsoft Excel, to import, sort, filter, copy, protect, transform, summarise, merge, and visualise research data. Attendees will walk away with new tricks to work more efficiently with their research data. |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Open Refine**<br>An introduction to Open Refine, a powerful tool for working with messy data. Open Refine is the perfect partner to Excel. It is used for exploring, normalising and cleaning datasets, and pulling in external data using web Application Programming Interfaces (APIs). |
-||||<br><br>
-| **Using Databases & SQL**<br>An introduction to relational databases and Structured Query Language (SQL). Relational databases are an extremely efficient, fast and widespread means of storing large amounts of structured data, and SQL is the standard means for reading from and writing to databases. |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Web Scraping**<br>An introduction to Web Scraping, which involves converting non-tabular or poorly structured data into a usable, structured format, usually a spreadsheet. Web Scraping is incredibly useful for acquiring data where it has been made inaccessible by the way it is presented online, and for tracking changes and archiving. |
-||||<br><br>
-| **Data Visualisation** |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Advanced Programming with R** |
-||||<br><br>
-| **High-performance Computing (HPC)** |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| **Data Management & Publishing** |
-||||<br><br>
+<details>
+  <summary><b>Software Carpentry in Python</b></summary>
+  This Software Carpentry workshop will introduce programming and data analysis with Python. We will cover basic concepts and tools, including program design, version control, data management, and task automation. You will learn to use JupyterLab, Git and Bash Shell. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. No previous knowledge required.<br/><br/>
+</details>
+<details>
+  <summary><b>Advanced Python & Data Visualisation on the Web</b></summary>
+  This workshop has two parts. Part one covers testing and continuous integration with Python. You will learn how to prevent, diagnose, and fix bugs in Python. We will cover simulations, test suites, and resources available for defensive programming. Part two covers data visualisation on the web using D3. Open Science should be visible science, and this module will show you how to present your data in a visibile and engaging format, in a way that is universally accessible. Requirements for this course are: prior experience with Python, a GitHub account and GitHub desktop client.<br/><br/>
+</details>
+<details>
+  <summary><b>Data Carpentry (Spreadsheets, OpenRefine, R Programming)</b></summary>
+  This Data Carpentry workshop teaches data cleaning, management, analysis and visualisation using spreadsheets, OpenRefine and R programming language. There are no pre-requisites, and the materials assume no prior knowledge about the tools. We use a single dataset throughout the workshop to model the data management and analysis workflow that a researcher would use.<br/><br/>
+</details>
+<details>
+  <summary><b>Advanced R (Intermediate R, Shiny, Spatial Data)</b></summary>
+  The goal of this lesson is to teach researchers already experienced with R some useful programming concepts that will make writing code more efficient, modular, and reusable, as well as packages for efficient data analysis. You will also learn how to use R to analyse geospatial data, and how to develop Shiny applications that allow users to run their own analyses on your data.<br/><br/>
+</details>
+<details>
+  <summary><b>Software Carpentry with SQL</b></summary>
+  Novice SQL; Working With Data on the Web; and From a Spreadsheet to a Database.<br/><br/>
+</details>
+<details>
+  <summary><b>Digital Humanities Stream</b></summary>
+  Introduction to Alveo; Research Data Management for Humanities, Arts and Social Sciences; Introduction to AURIN; Introduction to the Australian Data Archive; Trove API<br/><br/>
+</details>
