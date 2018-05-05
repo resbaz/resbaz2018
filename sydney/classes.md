@@ -20,5 +20,5 @@
 </details>
 <details>
   <summary><b>Digital Humanities Stream</b></summary>
-  Introduction to Alveo; Research Data Management for Humanities, Arts and Social Sciences; Introduction to AURIN; Introduction to the Australian Data Archive; Trove API<br/><br/>
+  Introduction to Alveo; Research Data Management for Humanities, Arts and Social Sciences; Introduction to AURIN; Introduction to the Australian Data Archive; Trove API.<br/><br/>
 </details>
