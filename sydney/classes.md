@@ -1,4 +1,4 @@
-<b>Days 1 & 2</b></br>
+<b>Days 1 & 2 Workshops</b></br>
 <details>
   <summary><b>Introductory Python</b></summary>
   <br/>This beginners' workshop will introduce programming and data analysis with Python. We will cover basic concepts and tools, including program design, version control, data management, and task automation. You will learn to use JupyterLab, Git and Bash Shell. No previous knowledge required.<br/><br/>
@@ -21,10 +21,7 @@
 </details>
 <details>
   <summary><b>Humanities, Arts & Social Sciences (HASS) Mixed Stream</b></summary>
-  <br/>This beginners' workshop introcuces Alveo, the virtual lab for human communications sciences; Research Data Management; AURIN, the Australian Urban Research Infrastructure Network; the Australian Data Archive; and Trove, a platform for cultural research in Australia. No previous knowledge required.<br/><br/>
+  <br/>This beginners' workshop introduces Alveo, the virtual lab for human communications sciences; Research Data Management; AURIN, the Australian Urban Research Infrastructure Network; the Australian Data Archive; and Trove, a platform for cultural research in Australia. No previous knowledge required.<br/><br/>
 </details>
-<b>Day 3</b></br>
-<details>
-  <summary><b>Festival Day!</b></summary>
-  <br/>A festival of lightning talks, hands-on activities around particular themes, and for HASS participants, a THATCamp (The Humanities and Technology Camp) Unconference.<br/><br/>
-</details>
+</br></br><b>Day 3 Festival Day</b></br>
+A festival of lightning talks, hands-on activities around particular themes, and for HASS participants, a THATCamp (The Humanities and Technology Camp) Unconference.
