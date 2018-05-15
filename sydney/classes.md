@@ -1,24 +1,27 @@
+<b>Days 1 & 2 Workshops</b></br>
 <details>
-  <summary><b>Software Carpentry in Python</b></summary>
-  <br/>This Software Carpentry workshop will introduce programming and data analysis with Python. We will cover basic concepts and tools, including program design, version control, data management, and task automation. You will learn to use JupyterLab, Git and Bash Shell. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. No previous knowledge required.<br/><br/>
+  <summary><b>Introductory Python</b></summary>
+  <br/>This beginners' workshop will introduce programming and data analysis with Python. We will cover basic concepts and tools, including program design, version control, data management, and task automation. You will learn to use JupyterLab, Git and Bash Shell. No previous knowledge required.<br/><br/>
 </details>
 <details>
-  <summary><b>Advanced Python & Data Visualisation on the Web</b></summary>
-  <br/>This workshop has two parts. Part one covers testing and continuous integration with Python. You will learn how to prevent, diagnose, and fix bugs in Python. We will cover simulations, test suites, and resources available for defensive programming. Part two covers data visualisation on the web using D3. Open Science should be visible science, and this module will show you how to present your data in a visibile and engaging format, in a way that is universally accessible. Requirements for this course are: prior experience with Python, a GitHub account and GitHub desktop client.<br/><br/>
+  <summary><b>Advanced Python & Data Visualisation</b></summary>
+  <br/>This advanced workshop has two parts. Part one covers testing and continuous integration with Python. You will learn how to prevent, diagnose, and fix bugs in Python. We will cover simulations, test suites, and resources available for defensive programming. Part two covers data visualisation on the web using D3. You will learn to present your data in an engaging and accessible way. Prerequisites: prior experience with Python, a GitHub account and GitHub desktop client.<br/><br/>
 </details>
 <details>
-  <summary><b>Data Carpentry (Spreadsheets, OpenRefine, R Programming)</b></summary>
-  <br/>This Data Carpentry workshop teaches data cleaning, management, analysis and visualisation using spreadsheets, OpenRefine and R programming language. There are no pre-requisites, and the materials assume no prior knowledge about the tools. We use a single dataset throughout the workshop to model the data management and analysis workflow that a researcher would use.<br/><br/>
+  <summary><b>Introductory R</b></summary>
+  <br/>This beginners' workshop teaches data cleaning, management, analysis and visualisation using spreadsheets, OpenRefine and R programming language.  Authentic datasets will be used to demonstrate data management and analysis workflow. No previous knowledge required.<br/><br/>
 </details>
 <details>
-  <summary><b>Advanced R (Intermediate R, Shiny, Spatial Data)</b></summary>
-  <br/>The goal of this lesson is to teach researchers already experienced with R some useful programming concepts that will make writing code more efficient, modular, and reusable, as well as packages for efficient data analysis. You will also learn how to use R to analyse geospatial data, and how to develop Shiny applications that allow users to run their own analyses on your data.<br/><br/>
+  <summary><b>Advanced R</b></summary>
+  <br/>This advanced workshop teaches useful programming concepts that will make writing R code more efficient, modular, and reusable, as well as packages for efficient data analysis. You will also learn how to use R to analyse geospatial data, and how to develop Shiny applications that allow users to run their own analyses on your data. Prerequisites: prior experience with R, a GitHub account and GitHub desktop client.<br/><br/>
 </details>
 <details>
-  <summary><b>Software Carpentry with SQL</b></summary>
-  <br/>Novice SQL; Working With Data on the Web; and From a Spreadsheet to a Database.<br/><br/>
+  <summary><b>SQL & Data Manipulation</b></summary>
+  <br/>This intermediate workshop teaches data manipulation using SQL and Python. Day one covers SQL and good database design. Day two teaches webscraping and transitioning from spreadsheets to databases. Prerequisite: prior experience with the bash shell and Python, a GitHub account and GitHub desktop client.<br/><br/>
 </details>
 <details>
-  <summary><b>Digital Humanities Stream</b></summary>
-  <br/>Introduction to Alveo; Research Data Management for Humanities, Arts and Social Sciences; Introduction to AURIN; Introduction to the Australian Data Archive; Trove API.<br/><br/>
+  <summary><b>Humanities, Arts & Social Sciences (HASS) Mixed Stream</b></summary>
+  <br/>This beginners' workshop introduces Alveo, the virtual lab for human communications sciences; Research Data Management; AURIN, the Australian Urban Research Infrastructure Network; the Australian Data Archive; and Trove, a platform for cultural research in Australia. No previous knowledge required.<br/><br/>
 </details>
+</br></br><b>Day 3 Festival Day</b></br></br>
+A festival of lightning talks, hands-on activities around particular themes, and for HASS participants, a THATCamp (The Humanities and Technology Camp) Unconference.
