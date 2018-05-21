@@ -1,0 +1,19 @@
+#speakers {
+font-size:1rem;
+}
+
+#speakers img {
+border-radius:50%;
+height:260px;
+width:auto;
+}
+
+#speakers td {
+width:28%;
+font-size:0.8rem;
+padding:3%;
+}
+
+
+
+
