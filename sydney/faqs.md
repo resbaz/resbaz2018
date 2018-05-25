@@ -20,5 +20,5 @@
 </details>
 <details>
   <summary><b>I have registered for a stream for the first two days, can I also attend Day 3?</b></summary>
-  <br/>You can attend the full three days if you have registered, and in fact we encourage you to! Day 3 is full of fun activities and inspiring talks... a nice way to cap off the skills you have developed in the first two days<br/><br/>
+  <br/>You can attend the full three days if you have registered, and in fact we encourage you to! Day 3 is full of fun activities and inspiring talks... a nice way to cap off the skills you have developed in the first two days.<br/><br/>
 </details>
