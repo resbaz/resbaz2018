@@ -1,4 +1,3 @@
-<b>FAQs</b></br>
 <details>
   <summary><b>Who can attend?</b></summary>
   <br>The event is aimed at NSW researchers, however anyone is welcome to attend.<br/><br/>
