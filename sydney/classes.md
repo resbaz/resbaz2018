@@ -5,7 +5,8 @@
 </details>
 <details>
   <summary><b>Advanced Python & Data Visualisation</b></summary>
-  <br/>This advanced workshop has two parts. Part one covers testing and continuous integration with Python. You will learn how to prevent, diagnose, and fix bugs in Python. We will cover simulations, test suites, and resources available for defensive programming. Part two covers data visualisation on the web using D3. You will learn to present your data in an engaging and accessible way. Prerequisites: prior experience with Python, a GitHub account and GitHub desktop client.<br/><br/>
+  <br/>Day one of this workshop covers testing and continuous integration with Python. You will learn how to prevent, diagnose, and fix bugs in Python. We will cover simulations, test suites, and resources available for defensive programming. On day two, there are two options available: Stream A covers data visualisation for the web using D3. You will learn to present your data in an engaging and accessible way. Stream B covers data visualisation with python. You will learn how to use Dataframes in Python using the Pandas library (Data Manipulation) and how to visualise data in Python using the Seaborn and the Matplotlib libraries (Data Visualisation). We teach these researcher-focused training modules using Jupyter notebooks, which allow program code, results, visualisations and documentation to be blended seamlessly.
+<br/><br/>
 </details>
 <details>
   <summary><b>Introductory R</b></summary>
