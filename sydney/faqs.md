@@ -1,9 +1,5 @@
 <b>FAQs</b></br>
 <details>
-  <summary><b>Where is the event held?</b></summary>
-  <br>ResBaz Sydney 2018 is held at Macquarie University in North Ryde. The event will be held in the [Mason Theatre (Building E7B)](#venue) adjacent to the Central Courtyard.<br/>
-</details>
-<details>
   <summary><b>Who can attend?</b></summary>
   <br>The event is aimed at NSW researchers, however anyone is welcome to attend.<br/>
 </details>
@@ -18,6 +14,11 @@
 <details>
   <summary><b>A course is full, can I go on a waiting list?</b></summary>
   <br/>Please note that while some courses are very popular and may already be full, we encourage you to join the waiting list. This will mean you may a spot if someone cancels their registration.<br/>
+</details>
+<details>
+  <summary><b>Do all streams run for Day 1 and Day 2?</b></summary>
+  <br/>Yes, all workshops/streams run for the first two days; Day 3 will involve informations sessions and hands-on activities. 
+<br/>
 </details>
 <details>
   <summary><b>I have registered for a stream for the first two days, can I also attend Day 3?</b></summary>
