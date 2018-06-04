@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ResBaz Brisbane 2018</title>
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+  resbaz-header {
+    --header-height: 70vh;
+    --header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/DrNick2.jpg);
+  }
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Brisbane">
+    <h1>Brisbane</h1>
+    <h2>6-8 June, 2018<br>#ResBazBris</h2>
+      <div class="actions">
+      <a href="http://www.cvent.com/d/qtqbnd">
+        <paper-button raised>Register</paper-button>
+      </a>
+    </div>
+	        <div class="actions">
+      <a href="index.html">
+        <paper-button raised>Main Page</paper-button>
+      </a>
+    </div>
+  </resbaz-header>
+  <article>
+	<h1>Day 1 - Wednesday 6th June</h1>
+	<br>
+	<h2>Workshop Information</br>
+	<li><a href="#Workshops">Workshops</a></li>
+	<li><a href="#Timetable">Timetable</a></li>
+	<li><a href="#Locations">Locations</a></li>
+	<li><a href="#Eduroam">Eduroam</a></li>
+	</br></br>
+	Today's Interactive Activities</br>
+	<li><a href="#Social">Social</a></li>
+	<li><a href="#ShipInnDiscount">Discounts</a></li>
+	<li><a href="#Games">Games</a></li>
+	<li><a href="#BookanExpert">Book an Expert</a></li>
+	<li><a href="#FeedbackTree">Feedback Tree</a></li></h2>
+	</br></br>	  
+	  
+<section id="Workshops">
+</section>
+<section id="Timetable">
+	 <h1>Timetable</h1>
+	  <h2>Wednesday 6th</h2>
+	  <csv-table url="day1times.csv" heading-columns="2" heading-rows="1" style="font-size: 75%">a</embedded-google-sheet>
+	  </section>
+<section id="Locations2">
+	<h2>Thursday 7th</h2>
+	  <csv-table url="day2times.csv" heading-columns="2" heading-rows="1" style="font-size: 75%">b</embedded-google-sheet>
+</section><section id="Locations3">
+	<h2>Friday 8th</h2>
+	  <csv-table url="day3times.csv" heading-columns="2" heading-rows="1" style="font-size: 75%">c</embedded-google-sheet>
+	 </section> 
+<section id="Locations">
+      <h2>Venue</h2>
+      <p>The event will be held at Southbank campus of Griffith University, Brisbane, building S07. This is directly behind the Ship Inn.</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      <h2>Room Locations</h2>
+	<a href="S07L1.png" >Building Level 1 </a></br>
+	<a href="s07L2.png" >Building Level 2 </a>
+</section>
+<section id="Eduroam">
+<h2>EduRoam</h2>
+	To connect with EduRoam, please see the <a href="https://www.eduroam.edu.au/eduroam-for-users/">Eduroam for users</a> site.
+</section>
+
+<section id="Social">
+	<h2>Social Events</h2>
+	<h3>Wednesday 6th</h3>
+	<p>Please come join us after class at 5.30 today to meet the community that brings Research Bazaar Brisbane together. Meet in the Ship Inn main area - All Welcome!</p>
+	<h3>Thursday 7th</h3>
+	<p>Meet up with the Meetups! Connect with our local meetup and community groups and build your networks (plus meet some excellent folks) 5:30 upstairs in the Ship Inn Function room.</p>
+	<h3>Friday 8th</h3>
+	<p>Knowledge for all are gathering in the Ship Inn downstairs for a discussion following their panel. Stop in around 4pm to say hi!</p>
+
+</section>
+<section id="ShipInnDiscount">
+	<h2>Discounts - Ship Inn</h2>
+	Show your Resbaz lanyard to get 10% off drinks and 20% food at the Ship Inn next door. 
+</section>
+<section id="Games">
+	<h2>Games</h2>
+</section>
+<section id="BookanExpert">
+	<h2>Book an Expert</h2>
+	<p>Interested in getting a one-on-one meeting with our Resbaz experts? Come book a time in at the front desk on the day to get help on the following topics:</p>
+</section>
+<section id="FeedbackTree">
+	<h2>Feedback Tree</h2>
+	We would love your input to help us grow ResBaz into the future. At the front lobby, please contribute to the Feedback trees on the wall.
+</section>
+
+  </article>
+  <footer>
+	  Photo by Dr Nick Hamilton - available <a style="color:white" href="https://www.flickr.com/people/100739735@N06/">via Flickr</a> <br>
+    Copyright &copy; Research Platform Services, University of Melbourne, 2018
+	   
+  </footer>
+</body>
+</html>
