@@ -1,0 +1,16 @@
+{
+    "type": "FeatureCollection",
+    "features": [    
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates":[170.513837, -45.863448]
+            },
+            "properties": {
+                "marker-color": "#2b3990",
+                "details": "St David Lecture Theatres, University of Otago"
+            }
+        }
+    ]
+}

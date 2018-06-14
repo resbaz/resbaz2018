@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,103 +37,234 @@
 <body unresolved>
   <resbaz-header title="ResBaz Dunedin">
     <h1>Dunedin</h1>
-    <h2>7-9 February, 2018</h2>
+    <h2>4-6 July, 2018</h2>
   </resbaz-header>
   <article>
-    <section id="full">
+    <!-- <section id="full">
       <h1>We're full!</h1>
       <p>Update 19/1/2018 - We're full! Please email res.baz@otago.ac.nz to be added to the wait list.</p>
-    </section>
-	  
+    </section> -->
+
     <section id="about">
+
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+
       <remote-markdown url="about.md">
         <div class="markdown-html"></div>
       </remote-markdown>
+
     </section>
+
     <hr/>
     <section id="venue">
-      <h1>Venue</h1>
-      <p>The event will be held in the Castle Lecture Theatre complex at the University of Otago</p>
+      <h1>Venue (workshops: July 4-5)</h1>
+      <p>The workshops will be held in the St David Lecture Theatre complex at the University of Otago</p>
 
-      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
-      
+      <venue-map geojson-url="venue1.geojson" zoom="16"></venue-map>
+
+      <h1>Venue (talks: July 6)</h1>
+      <p>The talks will be held in the Castle Lecture Theatre complex at the University of Otago</p>
+
+      <venue-map geojson-url="venue2.geojson" zoom="16"></venue-map>
+
     </section>
     <hr/>
     <section id="schedule">
-      <h1>Sessions</h1>
-      <p> If you haven't previously attended a Software Capentry workshop (or equivalent) it is recommended to take that stream.</p>
-      <p>Click on the name of each session to discover more!</p>
+
+      <h1>Talks and demonstrations (July 6)</h1>
+
+      Including presentations from:
+
+      <ul>
+        <li>Fiona Tweedie</li>
+        <li>Belinda Weaver</li>
+        <li>Georgina Rae</li>
+        <li>Fabiana Kubke</li>
+        <li>Michelle Barker</li>
+        <li>Jonah Duckles</li>
+        <li>Sina Masoud-Ansari</li>
+      </ul>
+
+      <h1>Workshop sessions (July 4-5)</h1>
+      <!-- <p>Click on the name of each session to discover more!</p> -->
+
       
-      <h2>Main streams - Software Carpentry</h2>
-
+	    <h2>Workshop Streams - Research projects and communication</h2>
       <simple-columns>
         <div>
-          <expandable-heading title="The Unix shell">
-	    Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively.
-	  </expandable-heading>
-	  <expandable-heading title="Programming in R">
-	    The R language provides a flexible and powerful environment for data analysis and visualisation.  This workshop will introduce the R language and will teach you some key programming skills.
-	  </expandable-heading>
-	  <expandable-heading title="Version control with Git">
-	    Version control is the lab notebook of the digital world - it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on.
-	  </expandable-heading>
-	</div>
-      </simple-columns>
+		<expandable-heading title="Research Project Management">
+           		This will cover techniques and tools for effectively managing research projects, and their associated data (and metadata). While "project management" is oftne associated with large scale initiatives, smaller research projects (e.g. Masters and PhD theses!) can benefit hugely from access to the right tools and knowledge of best practice.
+          	</expandable-heading>
+      	  	<expandable-heading title="21st century academic: smart savvy and social">
+            		Based on <a href="https://github.com/weaverbel/21CAsss/blob/master/21cass.md">https://github.com/weaverbel/21CAsss/blob/master/21cass.md</a> this workshop will introduce you to:
+			<br>
+		  	<ul>
+				<li>How to use persistent identifiers, including ORCIDs and DOIs to improve the visibility and citability of both you and your research</li>
+				<li>How to identify physical research objects in an online world</li>
+				<li>How to license your work using the Creative Commons framework</li>
+				<li>How to apply the 'think, check, submit' framework when publishing your research</li>
+			 	<li>What to do (and what not to do) with your personal (and institutional) website</li>
+			  	<li>How to get credit for your peer review activities</li>
+			  	<li>How to pitch your research to journalists</li>
+		  	</ul>
+	        </expandable-heading>
+	      </div>
+	      </simple-columns>
 	    
-      <h2>Main streams - Other</h2>
-
-      <simple-columns>
-        <div>
-          <expandable-heading title="Making R Packages">
-	    This workshop and will extend on making functions in R and go through how to transform from a function into a documented and installable R package
-	  </expandable-heading>
-	  <expandable-heading title="Intermediate/Advanced Tidyverse in R">
-	    This workshop is intended to cover the tidyverse packages more in depth with a focus on programmatic analysis and database usage.
-	  </expandable-heading>
-	  <expandable-heading title="Reproducible Research">
-	    This workshop will cover markdown and R variants (Rmarkdown, Bookdown, and Blogdown), and version control work flows for the purposes of customised reproducible reports.
-	  </expandable-heading>
-	</div>
-      </simple-columns>
+		<h2>Workshop streams - Non-programming digital skills and tools</h2>
+	    <simple-columns>
+		    <div>
+          	<expandable-heading title="OpenRefine for digital humanities">
+            		This workshop will be an introduction to OpenRefine with a humanities data focus.
+			<br>
+			It will cover:
+			<ul>
+				<li>What is OpenRefine</li>
+				<li>Loading data into OpenRefine</li>
+				<li>Data cleaning</li>
+				<li>Sorting, filtering, and summarising data</li>
+			</ul>
+          	</expandable-heading>
+          	<expandable-heading title="Digital lab notebooks with github">
+            		This session wil be an introduction to the creation of a digital lab notebook. It will be based on <a href="https://github.com/JoshuaHarris391/OSG_Eletronic_lab_Book_JH/blob/master/Guidelines.md">https://github.com/JoshuaHarris391/OSG_Eletronic_lab_Book_JH/blob/master/Guidelines.md</a>
+		  	<br>
+		  	It will cover:
+		  	<ul>
+				<li>Creating up a github account</li>
+			  	<li>Creating a repository to store the notebook</li>
+			  	<li>Introduction to markdown syntax for formatting</li>
+			  	<li>Adding entries to the notebook</li>
+			  	<li>Modifying existing entries</li>
+			  	<li>Collaborating</li>
+		  	</ul>
+			  
+          	</expandable-heading>
+          
+        </div>
+      </simple-columns>     
 	    
-      <h2>Additional Mini-workshops</h2>
+	<h2>Workshop streams - Library Carpentry</h2>
+	<simple-columns>
+	        <expandable-heading title="Library Carpentry">
+            		This workshop will be an introduction to digital skills aimed at librarians. Content for this workshop can be found here <a href="https://weaverbel.github.io/2018-07-05-dunedin/">https://weaverbel.github.io/2018-07-05-dunedin/</a>
+			<br>
+			It will cover:
+			<ul>
+				<li> An introduction to data</li>
+				<li> Jargon busting</li>
+				<li> File naming</li>
+				<li> Plain text formats</li>
+				<li> Regular expressions</li>
+				<li> Introduction to the Unix shell</li>
+				<li> Introduction to OpenRefine </li>				
+			</ul>
+			<br>
+			Prior experience/knowledge of the tools being presented is not required
+          </expandable-heading>
+	      </div>
+      	</simple-columns>
 
-      <simple-columns>
-        <div>
-          <expandable-heading title="Data manipulation and plotting in R (intro to tidyverse)">
-	    This mini workshop will follow the data manipulation and plotting lessons from the data carpentry ecology workshop. It will introduce the dplyr package for data manipulation in R and ggplot2 for creation of plots. It is intended to provide introductory data exploration and visualisation skills
-	  </expandable-heading>
-	  <expandable-heading title="Shiny for R-based web interfaces">
-	    Want to turn your ground-breaking R analyses into web-based tools for your friends and collaborators?  The "shiny" package for R provides a simple mechanism for building sophisticated web interfaces for interactive data analysis and visualisation - come along and learn how it's done.
-	  </expandable-heading>
-	  <expandable-heading title="Web scraping">
-	    This workshop is intended to convey the basics of scraping information from the web. For example, obtaining data from tables on websites, and cleaning it into a usable format for R.
-	  </expandable-heading>
-	  <expandable-heading title="Introduction to Python programming">
-	    This workshop will provide a basic introduction to programming principles using the Python language. 
-	  </expandable-heading>
-          <expandable-heading title="Making Bash (Command Line) Friendly and Introduction to Regular Expressions">
-	    This workshop will cover customising your command line environment such as making programs available on your computer, aesthetic changes to your prompt, keeping track of previous commands. In general setting up your command line environment to make work easier. This workshop will also introduce the syntax and creation of regular expressions (generalisable search terms) for searching text. 
-	  </expandable-heading>
-	  <expandable-heading title="Advanced Shell and Introduction to LaTeX">
-	    This will present some more advanced Shell techniques and "power tips" that will greatly enhance your everyday use of the Shell. It will also proivde an introduction to the popular and powerful document prepartion system, LaTeX. Many students use LaTeX for writing their PhD and MSc theses, and it is commonly used for writing research papers (particularly in more computational and/or mathematical disciplines).
-	  </expandable-heading>
-	  <expandable-heading title="Introduction to National eScience Infrastructure (NeSI)">
-	    This workshop is designed to introduce you to the available national compute resources, obtaining access, and submission of jobs. 
-	  </expandable-heading>
-          <expandable-heading title="Research Project Management">
-	    This will cover techniques and tools for effectively managing research projects, and their associated data (and metadata). While "project management" is often associated with large scale initiatives, smaller research projects (e.g., MSc and PhD theses!) can benefit hugely from access to the right tools, and knowledge of best practice. 
-	  </expandable-heading>
-	</div>
+      	<h2>Workshop streams - Data Carpentry</h2>
+
+      	<simple-columns>
+        	<div>
+         	 <expandable-heading title="Data Organisation">
+            		An introduction to data organisation and preparation practices. Based on <a href="http://www.datacarpentry.org/spreadsheets-socialsci/">http://www.datacarpentry.org/spreadsheets-socialsci/</a>
+          	</expandable-heading>
+          
+		<expandable-heading title="Social Sciences: Introductory R">
+            		An introduction to the programming language R and the RStudio interface for reproducible data analysis. The lessons will be based on <a href="http://www.datacarpentry.org/r-socialsci/00-intro/">http://www.datacarpentry.org/r-socialsci/00-intro/</a>, <a href="http://www.datacarpentry.org/r-socialsci/01-intro-to-r/">http://www.datacarpentry.org/r-socialsci/01-intro-to-r/</a> and <a href="http://www.datacarpentry.org/r-socialsci/02-starting-with-data/">http://www.datacarpentry.org/r-socialsci/02-starting-with-data/</a>  
+		  	<br>
+		  	This will cover:
+		  	<ul>
+				  <li> Project setup</li>
+			  	<li> Introduction to R </li>
+			  	<li> Getting data into R </li>
+			  	<li> Basic data analysis </li>
+			  	<li> Getting data out of R </li>
+		  	</ul>
+          	</expandable-heading>
+			
+          	<expandable-heading title="R: dplyr/ggplot2">
+           		 Continuing on from the introduction to R, this workshop will introduce how to manipulate and visualise data in R. the lessons will be based on <a href="http://www.datacarpentry.org/r-socialsci/03-dplyr-tidyr/">http://www.datacarpentry.org/r-socialsci/03-dplyr-tidyr/</a> and <a href="http://www.datacarpentry.org/r-socialsci/04-ggplot2/">http://www.datacarpentry.org/r-socialsci/04-ggplot2/</a>
+		  	<br>
+		  	This will cover:
+		  	<ul>
+				  <li>Selecting and filtering data</li>
+				  <li>Grouping and summarising data</li>
+				  <li>Modifying data</li>
+				  <li>Visualisation of data</li>
+			  </ul>
+         	</expandable-heading>
+          	<expandable-heading title="Getting data from SQL databases">
+            		This workshop will be an introduction to accessing databases using SQL.
+		  	<br>
+		  	This will cover:
+		  	<ul>
+				<li>What are relational databases</li>
+				  <li>Connecting to a database</li>
+				  <li>Selecting and filtering data</li>
+			  	<li>Agregating and summarising data</li>
+			 	 <li>Combining data</li>
+			</ul>	  
+          </expandable-heading>
+        </div>
       </simple-columns>
 
+      
+	<h2>Workshop streams - Programming digital skills and tools</h2>
+	<simple-columns>
+		<div>
+			<expandable-heading title="Bash and Secure Shell (SSH)">
+            This workshop session will be an introduction to the unix commandline and remote access. It will be based on <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a>
+		  <br>
+		  It will cover:
+		  <ul>
+			  <li>Navigation of directories and files</li>
+			  <li>Working with files and directories</li>
+			  <li>Combining commands</li>
+			  <li>Introduction to accessing remote computers</li>
+			  <li>Introduction to NeSI</li>
+		  </ul>
+          </expandable-heading>
+			<expandable-heading title="Python for humanities">
+				This session will be an introduction to the Python programming language. The workshop will be based on <a href="http://www.musicofsound.org/python-humanities-lesson/">http://www.musicofsound.org/python-humanities-lesson/</a>
+				<br>
+				It will cover:
+				<ul>
+					<li>Introduction to Python</li>
+					<li>Loading data</li>
+					<li>Datatypes and subsetting of data</li>
+					<li>Writing data out</li>
+				</ul>
+			</expandable-heading>
+		</div>
+	    </simple-columns>
+	  </section>	    
       <h2>Preliminary timetable</h2>
-      <csv-table url="schedule-v2.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>    
+	Please check back before the event for updates
+	  <section id="Day1">
+	    <h3>Wednesday 4th July - St David Lecture Theatre Complex</h3>
+      <csv-table url="day1.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
+	  </section>
+	  <section id="day2">
+	    <h3>Thursday 5th July - St David Lecture Theatre Complex</h3>
+	    <csv-table url="day2.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
+	  </section>
+	  <section id="day3">
+	  <h3>Friday 6th July - Castle Lecture Theatre Complex</h3>
+	    <csv-table url="day3.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
+		 
     </section>
     <hr/>
     <section id="come-along">
-	<h1>We're full!</h1>
-        <p>Please email res.baz@otago.ac.nz to be added to the wait list.</p>
+      <remote-markdown url="come_along.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+	     <!-- <h1>We're full!</h1>
+       <p>Please email res.baz@otago.ac.nz to be added to the wait list.</p> -->
     </section>
     <hr/>
     <section id="contact-us">
