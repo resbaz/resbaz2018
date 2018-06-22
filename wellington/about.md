@@ -4,4 +4,4 @@ The Wellington Research Bazaar is a conference promoting the digital literacy em
 <p>
 Researchers at all levels and from all disciplines are encouraged to apply. <br>Research technologists who support researchers to do their job are welcome also. 
 <p>
-We're currently finalising the schedule which will bring you a broad range of digital research skills topics - stay tuned and make sure to register <a href="#come-along">below</a>. 
+Scroll down to view the sessions of offer, and make sure to <a href="#come-along">register</a> if you're keen to join us. 
