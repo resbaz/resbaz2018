@@ -1,3 +1,7 @@
+# 2018 event in Review
+
+Thank you for being part of such an amazing community that is Research bazaar here in Brisbane. To learn more about this event, you can view our [twitter story here](http://wke.lt/w/s/sEaVF), see [our infographic](infographic.pdb) or read about our event in [this article]().
+
 # About
 
 The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the centre of modern research. Throughout 2018, events will be held at a number of university campuses around the globe.
