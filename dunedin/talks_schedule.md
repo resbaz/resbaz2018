@@ -1,6 +1,6 @@
 |Time   |Session    |Content  |Speakers|
 |-------|-----------|---------|--------|
-|9am    |Keynote    |         | Welcome 
+|9:15am    |Keynote    |         | Welcome 
 ||||Fabiana - Research project management is a community effort
 |10am   |Talks      |3x 20min |
 ||1|| 
