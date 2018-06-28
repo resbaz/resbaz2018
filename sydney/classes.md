@@ -22,7 +22,7 @@
 </details>
 <details>
   <summary><b>Humanities, Arts & Social Sciences (HASS) Mixed Stream</b></summary>
-  <br/>**No downloading of software for the HASS sessions. All a participant needs is a laptop and the ability to connect to the wifi.**</br><br/>This beginners' workshop introduces Alveo, the virtual lab for human communications sciences; Research Data Management; Jupyter notebook; AURIN, the Australian Urban Research Infrastructure Network; the Australian Data Archive; and Trove, a platform for cultural research in Australia. No previous knowledge required.<br/><br/>
+  <br/>**Session information:** [https://protect-au.mimecast.com/s/dmgKC3QNl1Spx2wZc2k_Yd?domain=pad.software-carpentry.org](https://protect-au.mimecast.com/s/dmgKC3QNl1Spx2wZc2k_Yd?domain=pad.software-carpentry.org)</br><br/>This beginners' workshop introduces Alveo, the virtual lab for human communications sciences; Research Data Management; Jupyter notebook; AURIN, the Australian Urban Research Infrastructure Network; the Australian Data Archive; and Trove, a platform for cultural research in Australia. No previous knowledge required.<br/><br/>
 </details>
 </br></br><b>Day 3 Festival Day</b></br></br>
 A festival of lightning talks, hands-on activities around particular themes, and for HASS participants, a THATCamp (The Humanities and Technology Camp) Unconference.
