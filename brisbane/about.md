@@ -1,6 +1,6 @@
 # 2018 event in Review
 
-Thank you for being part of such an amazing community that is Research bazaar here in Brisbane. To learn more about this event, you can view our [twitter story here](http://wke.lt/w/s/sEaVF), see [our infographic](infographic.pdb) or read about our event in [this article]().
+Thank you for being part of such an amazing community that is Research bazaar here in Brisbane. To learn more about this event, you can view our [twitter story here](http://wke.lt/w/s/sEaVF), see [our infographic](ResbazInfo.pdf) or read about our event in [this article](https://wp.me/p2xRAO-1jA).
 
 # About
 
