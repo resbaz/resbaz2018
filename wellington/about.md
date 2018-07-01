@@ -4,4 +4,4 @@ The Wellington Research Bazaar is a conference promoting the digital literacy em
 <p>
 Researchers at all levels and from all disciplines are encouraged to apply. <br>Research technologists who support researchers to do their job are welcome also. 
 <p>
-Scroll down to view the sessions on offer, and make sure to <a href="#come-along">register</a> if you're keen to join us. 
+Scroll down to view the sessions on offer, and if you've signed up for the <b>CODE</b>b> stream make sure to check out the  <a href="https://andre-geldenhuis.github.io/2018-07-04-vuw/" taret="_blank"> dedicated website</a> for installation instuctions and further key information. 
