@@ -6,7 +6,7 @@
 <br/><br/>
   ### > Introductory R
   **Set up instructions:** [http://daryavanichkina.com/2018-07-03-ResbazSydney/](http://daryavanichkina.com/2018-07-03-ResbazSydney/)</br><br/>This beginners' workshop teaches data cleaning, management, analysis and visualisation using spreadsheets, OpenRefine and R programming language.  Authentic datasets will be used to demonstrate data management and analysis workflow. No previous knowledge required.<br/><br/>
-  ### Advanced R
+  ### > Advanced R
   **Set up instructions:** [https://humburg.github.io/2018-07-03-resbaz-sydneyAdvR/](https://humburg.github.io/2018-07-03-resbaz-sydneyAdvR/)</br><br/>This advanced workshop teaches useful programming concepts that will make writing R code more efficient, modular, and reusable, as well as packages for efficient data analysis. You will also learn how to use R to analyse geospatial data, and how to develop Shiny applications that allow users to run their own analyses on your data. Prerequisites: prior experience with R, a GitHub account and GitHub desktop client.<br/><br/>
   ### > SQL & Data Manipulation
   **Set up instructions:** [https://denubis.github.io/2018-07-03-resbaz2018sql/](https://denubis.github.io/2018-07-03-resbaz2018sql/)</br><br/>This intermediate workshop teaches data manipulation using SQL and Python. Day one covers SQL and good database design. Day two teaches webscraping and transitioning from spreadsheets to databases. Prerequisite: prior experience with the bash shell and Python, a GitHub account and GitHub desktop client.<br/><br/>
