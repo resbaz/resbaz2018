@@ -23,7 +23,6 @@
   <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
   <link rel="import" href="../bower_components/app-layout/app-layout.html">
   <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
-
   <link rel="import" href="../components/common-style.html">
   <link rel="import" href="../components/resbaz-header.html">
   <style is="custom-style">
@@ -36,11 +35,14 @@
 <body unresolved>
   <resbaz-header title="ResBaz Wellington">
     <h1>Wellington</h1>
-    <h2>4-6 July, 2018</h2>
-        <h2>#ResBazWelli</h2>
+    <h2>4-6 July, 2018<br>#ResBazWelli</h2>
     <div class="actions">
-      <a href="#come-along">
-        <paper-button raised>Come Join Us</paper-button>
+      <a href="#schedule">
+        <paper-button raised>Sessions</paper-button>
+        </a>
+       <a href="#Timetable">
+        <paper-button raised>Timetable</paper-button>
+       
       </a>
     </div>
   </resbaz-header>
@@ -51,94 +53,42 @@
       </remote-markdown>
     </section>
     <hr/>
+
     <section id="venue">
       <h1>Venue</h1>
-      <p>The event will be held in Rutherford House on Victoria University of Wellington's Pipitea Campus</p>
+      <p>ResBazWelli will be held in Rutherford House on Victoria University of Wellington's <a href="https://www.victoria.ac.nz/about/explore-victoria/campuses/pipitea/pipitea-map.pdf">Pipitea Campus</a>, in the mezzanine foyer and surrounding spaces.</p>
 
-      <venue-map geojson-url="venue.geojson" zoom="16"></venue-map>
+      <venue-map geojson-url="venue.geojson" zoom="18"></venue-map>
+      <p>
+      <div align="center">
+      <img src="ResBazMap.gif" alt="ResBazMap" style="width:auto;height:425px">
+    </div>
 
     </section>
-    <hr/>
+ <hr>
 
-<!--
-    <section id="schedule">
-      <h1>Schedule</h1>
-      <remote-markdown url="software_carpentry.md">
-        
-        <div class="markdown-html"></div>
-      </remote-markdown>
-      <h2>Day 3: Community Day</h2>
-      <p>On the final day of the event, data service providers and individual researchers from the local community will deliver a wide variety of talks and workshops.</p>
-      <p>Click on the name of each session to discover more!</p>
-      <simple-columns>
-        <div>
-          <expandable-heading title="How to write a reproducible paper">
-            Modern research relies heavily on software and code. These aspects of the research methodology are rarely (if ever) documented in modern research papers, which has led to a reproducibility crisis in published computational research. This session, run by Michael David Wilson, will outline the practical steps you can take to ensure that your papers are reproducible.
-          </expandable-heading>
-          <expandable-heading title="Machine learning. From zero to hero!">
-            Machine learning has become a valuable tool for people working with large amount of data. In this session we'll learn how to extract meaning from data using several techniques implemented in scikit-learn from John Vial.
-          </expandable-heading>
-          <expandable-heading title="Using EndNote effectively">
-            EndNote is the most common reseach citation manager. In this session Armin Scheben will show you caveats and tricks so that you can use EndNote in an effective manner.
-          </expandable-heading>
-          <expandable-heading title="Ethical issues in publication and authorship">
-            Publishing is fraught with ethical tripping stones. In this session Joanne Edmonston will talk you through the problems you may face!
-          </expandable-heading>
-          <expandable-heading title="Structuring an effective conference presentation">
-            It is not easy to summarise months of research into a 20 minutes talk. Good that Krystyna Haq will show you how it's done!
-          </expandable-heading>
-          <expandable-heading title="Data Science In The Cloud">
-            AWS as a research platform reduces the cost of trying new ideas and provides virtually unlimited storage and compute resources. Andrea Bedini (KZN Group) will show you how to get started with doing data science on the cloud, in perfect security and control over the budget. The workshop will start with a brief overview of AWS and dive straight into a hands-on lab with applications to deep learning, satellite imagery and life sciences.
-          </expandable-heading>
-        </div>
-        <div>
-          <expandable-heading title="Getting your research published">
-            There are many tricks and caveats in getting your research into a journal. In this session Prof. Dave Edwards will take you through what he has learned in decades of his work.
-          </expandable-heading>
-          <expandable-heading title="How to condense your research into a short 'elevator pitch'">
-            Ever needed to explain your research in two sentences to your grandmother, and struggled? Come along and let Armin Scheben show you how to condense your research into an elevator pitch.
-          </expandable-heading>
-          <expandable-heading title="Analysing qualitative data with NVivo">
-            Michael Azariadis will show you how to use NVivo, powerful data anysis software that supports qualitative and mixed-methods research. (WARNING: Places are limited due to software licensing)
-          </expandable-heading>
-          <expandable-heading title="Planning for your future career">
-            Academia? Industry? The UWA Graduate School will hold a workshop on planning your career!
-          </expandable-heading>
-          <expandable-heading title="Making the most of your conference poster">
-            Conferences are full of posters clamoring for attention - Krystyna Haq will show you how to make your poster get the most attention.
-          </expandable-heading>
-          <expandable-heading title="Managing your data throughout the research lifecycle with CloudStor">
-            Research data is more effectively managed in cloud storage services when the research and data curation lifecycle are aligned in the mind of the researcher.  This workshop will cover: key features of both lifecycles that aid with research data management and point to existing functions of CloudStor that can be used, e.g. when to use upload versus sync (to load data into active storage) and introduce new research relevant features coming up on the roadmap.
-          </expandable-heading>
-
-        </div>
-      </simple-columns>
-      <p>Here's the preliminary timeplan. <b>IMPORTANT</b>: We are running two repeats of the 'Analysing qualitative data with Nvivo' course and places are strictly limited to 10 people each, if you want to attend please send us an email to <a href-;'mailto:resbaz2018-lib@uwa.edu.au'>resbaz2018-lib@uwa.edu.au</a>. Please also note that the Nvivo courses are in the <i>Law Library</i>.</p>
-      <csv-table url="community_day_schedule.csv" heading-columns="1" heading-rows="1" style="font-size: 75%"></embedded-google-sheet>
-    </section>
-!-->
 <section id="come-along">
   <h1>Come Along</h1>
   <div class="center">
-      <a href="https://vuw.libcal.com/event/4212052">
-        <paper-button raised>Register</paper-button>
-      </a>
-    </div>
-        <p>Click on the link above to register for ResBaz Welli 2018. If you'd like to help organise or contribute to the event this year, or suggest any ideas about what you would like to see in the programme it's not too late. Please <a href="http://vuw.qualtrics.com/jfe/form/SV_798eRl9ei7dXakd">click here</a> and let us know!</p>
-    </section>
-    <hr/>
-    
+      We're fully booked! Thanks for all your interest, and please <a href="#contact-us"> get in touch</a> if you'd liked to be kept in the loop about future events.
+  </div>
+</section>
+
+<hr>
+
 <section id="schedule">
       <h1>Sessions</h1>
-      <p>Click on the session titles below to get an idea of what will be on offer. More sessions and a detailed programme will be available soon, so make sure you return to this site to keep updated.</p>
-      
+      <h5>Click on the session titles below to get an idea of what will be on offer. <b>NB</b>: sessions marked with an <b>*</b> are limited to those enrolled in the CODE stream. Click <a href="#Timetable">here</a> for session times.</h5>
  
       <simple-columns>
         <div>
-          <expandable-heading title="Data & Narratives">
+    <expandable-heading title="Author Carpentry">
+      Promote your publications, increase impact and collaborate in research by learning about alternative metrics, social networking and unique author identifiers. Presented in partnership with <a href="https://publons.com/home/" target="_blank">Publons</a>.
+    </expandable-heading>
+    <expandable-heading title="Data & Narratives">
       Data visualisation for communication is a bit different from exploratory data analysis. In this workshop led by Harkanwal Sign, we will explore examples of compelling data narratives and what makes visualisation work for the audience. Also, the workshop will focus on the design process outside of the code, including sketching data visualisation and learning how to use colour better.
     </expandable-heading>
-     <expandable-heading title="Introduction to Data Visualization and Effective Use of Visual Variables">
+    <expandable-heading title="Introduction to Data Visualization and Effective Use of Visual Variables">
      Data visualization is an important tool for the 21st century, assisting in both data analysis and the communication of results. The use of appropriate visualization techniques can greatly increase the ability to gain insight from data. This workshop will give an introduction to data visualization using different tools and techniques, and use of visual variables to make effective visualizations. Come prepared with your own datasets that you want to visualize!
     </expandable-heading>
     <expandable-heading title="Introduction to Video Abstracts">
@@ -148,46 +98,75 @@
       Explore the many ways social media can be utilised to build a research profile and following, including tips on how to engage with relevant communites, disseminate your publications more widely, and increase your research impact. Learn about tools that you can utilise to make social media work for you, and see how academics interact in this space. 
     </expandable-heading>
     <expandable-heading title="Research Data Management 101">
-       How do you make sure data you collect for your research won't end up in the wrong hands? What happens if your laptop dies and all your work is on it? Come along to this session to learn how a <a href="http://libguides.victoria.ac.nz/c.php?g=738710&p=5282072"> research data management plan</a> can help you manage, protect and publish your research data. We'll discuss why these are an increasingly vital part of the research lifecycle, and why setting one up early in a project might save your sanity down the line. 
+       How do you make sure data you collect for your research won't end up in the wrong hands? What happens if your laptop dies and all your work is on it? Come along to this session to learn how a <a href="http://libguides.victoria.ac.nz/c.php?g=738710&p=5282072" target="_blank"> research data management plan</a> can help you manage, protect and publish your research data. We'll discuss why these are an increasingly vital part of the research lifecycle, and why setting one up early in a project might save your sanity down the line. 
     </expandable-heading>
     <expandable-heading title="Designing and Developing Research Surveys"> 
-      If data is the research equivalent  of gold, then survey-creation software <a href="https://www.qualtrics.com/">Qaultrics</a> maybe the gold digging tool you need. Learn how to gather data effectively by understanding survey design principles and tools, and master the art of asking the right questions. Sign up for an account <a href="http://www.vuw.qualtrics.com/">here</a>.</p>
+      Learn how to gather data effectively by understanding survey design principles and tools, and master the art of asking the right questions. 
     </expandable-heading>
     <expandable-heading title="Working with Wikipedia">
-      Learn from <a href="https://en.wikipedia.org/wiki/User:Stuartyeates"> Stuart Yeats </a> about how you research outputs might best intersect with Wikipedia, and how you can go behind the curtain to edit  "the largest and most popular general reference work on the Internet".<br> Related links: <br>
-                        <a href="https://en.wikipedia.org/wiki/Template:Authority_control"> Wikipedia Authority Control </a>;
-                        <a href="http://nzresearch.org.nz"> NZ Research </a>;
-                        <a href="https://meta.wikimedia.org/wiki/Complete_list_of_Wikimedia_projects"> Wikimedia Projects. </a></P>
+      <a href="https://en.wikipedia.org/wiki/User:Stuartyeates"> Stuart Yeats </a> leads a discussion about wikipedia use in teaching and research in university contexts, including setting editing as coursework, adding your research results to wikipedia and using wikipedia as data. In the second half of the session, Stuart will talk his way through the creation of a new wikipedia article, explaining what he's doing, why he's doing it and how to avoid common mistakes. Related links:
+                        <a href="https://en.wikipedia.org/wiki/Template:Authority_control" target="_blank"> Wikipedia Authority Control </a>&nbsp | &nbsp 
+                        <a href="http://nzresearch.org.nz" target="_blank"> NZ Research </a> &nbsp | &nbsp
+                        <a href="https://meta.wikimedia.org/wiki/Complete_list_of_Wikimedia_projects" target="_blank"> Wikimedia Projects. </a>
     </expandable-heading>
     <expandable-heading title="Learn LaTeX">
-      <a href="https://www.latex-project.org/">LaTeX</a> is a document preparation system for high-quality typesetting that allows you to separate the content from the format of your document. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing. Come along to see if it's for you.</p> 
+      <a href="https://www.latex-project.org/" target="_blank">LaTeX</a> is a document preparation system for high-quality typesetting that allows you to separate the content from the format of your document. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing. Come along to see if it's for you.
     </expandable-heading>
-      <expandable-heading title="ggplot 2 and tidyverse for Data Science">
-      <a href="http://ggplot2.org/">ggplot2</a> is a plotting system for R, based on the grammar of graphics, which tries to take the good parts of base and lattice graphics and none of the bad parts. It takes care of many of the fiddly details that make plotting a hassle (like drawing legends) as well as providing a powerful model of graphics that makes it easy to produce complex multi-layered graphics. Learn how to make it work for you, and how see how it fits into the <a href="https://www.tidyverse.org/">tidyverse</a> collection of "opinionated" R packages.</p>
+    <expandable-heading title="ggplot 2 and tidyverse for Data Science">
+      <a href="http://ggplot2.org/" target="_blank">ggplot2</a> is a plotting system for R, based on the grammar of graphics, which tries to take the good parts of base and lattice graphics and none of the bad parts. It takes care of many of the fiddly details that make plotting a hassle (like drawing legends) as well as providing a powerful model of graphics that makes it easy to produce complex multi-layered graphics. Learn how to make it work for you, and how see how it fits into the <a href="https://www.tidyverse.org/">tidyverse</a> collection of "opinionated" R packages.
     </expandable-heading>
-    <expandable-heading title="Version Control and Collaboration Tools - Intro to Git and GitHub">
-       This session will offer a brief and practical introduction to <a href="https://git-scm.com/">Git</a> and <a href="https://github.com/">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about! 
+    <expandable-heading title="Version Control and Collaboration Tools - Intro to Git and GitHub*">
+       This session will offer a brief and practical introduction to <a href="https://git-scm.com/" target="_blank">Git</a> and <a href="https://github.com/" target="_blank">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about! 
     </expandable-heading>
-    <expandable-heading title="Programming with R"> R is a free, widely-used and well-documented software environment for data science. <p>
+    <expandable-heading title="Programming with Python*"> Python is a widely-used, easily-learned general-purpose language. It can be used to automate tasks, analyse data and build just about anything.This hands-on lesson will focus on how Python can be used for scientific data analysis (CODE stream only).
+    </expandable-heading>
+    <expandable-heading title="Programming with R*"> R is a free, widely-used and well-documented software environment for data science. 
       The best way to learn how to program is to do something useful, so this introduction to R is built around a common scientific task: data analysis.
-      <p>   
-      The goal isn’t just to teach you R, but also the basic concepts that all programming depends on. (CODE stream only)
+      The goal isn’t just to teach you R, but also the basic concepts that all programming depends on. (CODE stream only).
     </expandable-heading>
-    <expandable-heading title="Version Control with Git">
-      Version control is the lab notebook of the digital world. It’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software - books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system. (CODE stream only)
-    </expandable-heading>
-    <expandable-heading title="The Unix Shell">
-      No one likes doing boring tasks once, let alone many times over and over. The Unix Shell allows you to do complex things with just a few keystrokes. More importantly, it helps you combine existing programs in new ways and automate repetitive tasks. (CODE stream only)
+    <expandable-heading title="The Unix Shell*">
+      No one likes doing boring tasks once, let alone many times over and over. The Unix Shell allows you to do complex things with just a few keystrokes. More importantly, it helps you combine existing programs in new ways and automate repetitive tasks. (CODE stream only).
     </expandable-heading>
     <expandable-heading title="Digital Storytelling Tool Suite">
-      Overview of <a href="https://projects.knightlab.com/">a range of free, easy-to-use interactive tools</a> useful for time or location-based narratives. Learn the basics with the option to explore more advanced features. Possible assets to use <a href="https://goo.gl/r5rj6g">here</a></p>
+      Overview of <a href="https://projects.knightlab.com/" target="_blank">a range of free, easy-to-use interactive tools</a> useful for time or location-based narratives. Learn the basics with the option to explore more advanced features. Possible assets to use <a href="https://goo.gl/r5rj6g" target="_blank">here</a>.
     </expandable-heading>
+    <expandable-heading title="Data Analysis for Novices">
+      An overview of data analysis basics, including how to select <a href="http://methods.sagepub.com/" target="_blank">appropriate analysis methods</a>, <a href="https://www.discoveringstatistics.com/" target="_blank">tools</a> that can be utilised, and how to run analyses.
     </expandable-heading>
-    <expandable-heading title="Author Carpentry">
-      Promote your publications, increase impact and collaborate in research by learning about alternative metrics, social networking and unique author identifiers.
+    <expandable-heading title="Virtual and Augmented Reality showcase">
+        Experience a range of projects utilising virtual and agumented reality technology, developed both at Victoria and beyond.
     </expandable-heading>
-      <expandable-heading title="Virtual Reality showcase">
-    </expandable-heading>
+  </div>
+</simple-columns>
+</section>
+
+<hr>
+
+<section id="Timetable">
+   <h1>Timetable</h1>
+     <div class="center">
+  <h2>WEDS JULY 4<sup>th</sup> <br></h2>
+    <h5>Note: only CODE stream sessions are offered on this day.<br> Make sure to check out <a href="https://andre-geldenhuis.github.io/2018-07-04-vuw/" taret="_blank"> this website</a> for installation instuctions and further key info.</h5>
+    </div>
+    <csv-table url="WelliDay1times.csv" heading-columns="0" heading-rows="1" style="font-size: 75%" align-content="center">a</embedded-google-sheet>
+      </section>
+<section id="Timetable1">
+  <div class="center">
+      <h2>THURS JULY 5<sup>th</sup> <br></h2>
+      <h5>*Sessions marked with an asterix only available to those registered for the <b> CODE </b> stream. <br> More information on sessions for both streams can be found <a href="#schedule">here</a>.</h5>
+       </div>
+    <csv-table url="WelliDay2times.csv" heading-columns="0" heading-rows="2" style="font-size: 75%">a</embedded-google-sheet>
+      </section>
+<section id="Timetable2">
+  <div class="center">
+       <h2>FRI JULY  6 <sup>th</sup></h2>
+        <h5>*Sessions marked with an asterix only available to those registered for the <b> CODE </b> stream. <br> More information on sessions for both streams can be found <a href="#schedule">here</a>.</h5>
+         </div>
+    <csv-table url="WelliDay3times.csv" heading-columns="0" heading-rows="2" style="font-size: 75%">a</embedded-google-sheet>
+</section>
+
+<hr>
+   
 <section id="speakers">
       <h1>Meet Our Speakers</h1>
       <p></p>
@@ -195,54 +174,83 @@
 <table>
   <tr>
     <td style="width:28%; vertical-align:text-top;padding: 3%">
-      <br><img src="KylieReiri.jpg" alt="Alys" style="width:auto;height:200px;border-radius:50%">
+      <br><img src="KylieReiri.jpg" alt="Kylie" style="width:auto;height:200px;border-radius:50%">
       <br>
       <br>
       <span>
         <strong>Kylie Reiri</strong>
         <br>
-Kylie is a data scientist who has a keen interest in making it easier to work with data. From building systems in automated and reusable ways, to upskilling people to make sure the capabilities exist to get the most out of our data rich world.
- <p>
-Kylie is currently managing a team of data scientists and IT experts for <a href="https://www.nicholsonconsulting.info/">Nicholson Consulting</a>.
- <p>
-Kylie holds a Master of Science (Applied Statistics) and a Bachelor of Science (Statistics and Marine Biology), both from Victoria University of Wellington. She has held previous roles as a statistician at Statistics NZ, Inland Revenue, the Ministry of Health, and most recently as the Technical Lead at the Social Investment Agency.
-
+    Kylie is a data scientist who has a keen interest in making it easier to work with data. From building systems in automated and reusable ways, to upskilling people to make sure the capabilities exist to get the most out of our data rich world.
+    <p>
+    Kylie is currently managing a team of data scientists and IT experts for <a href="https://www.nicholsonconsulting.info/" target="blank">Nicholson Consulting</a>.
+    <p>
+    Kylie holds a Master of Science (Applied Statistics) and a Bachelor of Science (Statistics and Marine Biology), both from Victoria University of Wellington. She has held previous roles as a statistician at Statistics NZ, Inland Revenue, the Ministry of Health, and most recently as the Technical Lead at the Social Investment Agency.
       </span>
       <br>
     </td>
+
      <td style="width:28%; vertical-align:text-top;padding: 3%">
-      <br><img src="PaulBracewell.jpg" alt="Minako" style="width:auto;height:200px;border-radius:50%">
+      <br><img src="PaulBracewell.jpg" alt="Paul" style="width:auto;height:200px;border-radius:50%">
       <br>
       <br>
       <span>
         <strong>Dr Paul Bracewell</strong>
-        <br>Paul Bracewell is a founder of <a href="http://dotlovesdata.com/">DOT loves data </a> where he leads the analytical and technical teams.  Paul is passionate about analytics and how it can impact the world around us.  This enthusiasm has been honed by nearly 20 years of using analytics in a range of senior leadership roles, across a wide range of industries to solve business problems and shape strategies.  In addition to having award winning PhD research under his belt, Paul has been directly involved in the sale of two analytics businesses. He is an Adjunct Research Fellow within Victoria University’s School of Mathematics and Statistics where he supervises PhD and Masters Students and has also lectured within the School of Marketing & International Business.
+        <br>Paul Bracewell is a founder of <a href="http://dotlovesdata.com/" target="blank">DOT loves data </a> where he leads the analytical and technical teams.  Paul is passionate about analytics and how it can impact the world around us.  This enthusiasm has been honed by nearly 20 years of using analytics to solve business problems and shape strategies in a range of contexts.  In addition to having award-winning PhD research under his belt, Paul has been directly involved in the sale of two analytics businesses. <p>
+        He is an Adjunct Research Fellow within Victoria University’s School of Mathematics and Statistics where he supervises PhD and Masters Students and has also lectured within the School of Marketing & International Business.
       </span>
       <br>   
-    </td>
-    
+    </td>  
   </tr>
+
   <tr>
-    
+    <td style="width:28%; vertical-align:text-top;padding: 3%">
+      <br><img src="markus.jpg" alt="Markus" style="width:auto;align:center;height:200px;border-radius:50%">
+      <br>
+      <br>
+      <span>
+        <strong>Markus Luczak-Roesch</strong>
+        <br><A href="https://www.victoria.ac.nz/sim/about/staff/markus-luczak-roesch" target="blank">Markus Luczak-Roesch</a> is a Senior Lecturer in the School of Information Management at Victoria University. 
+     His research focuses on the foundations of space and time in the context of information, as well as emergent meaning that is rooted in coincidence. <p>
+     The information sequences Markus is studying stem from digital traces left by humans in online communities such as Wikipedia and citizen science platforms such as Zooniverse, but also literary texts, brain wave recordings, and micro-linguistic data about language use.
+      </span>
+      <br>
+    </td>
     <td style="width:28%; vertical-align:text-top;padding: 3%">
       <br><img src="keystory_speaker_harkanwal.jpg" alt="Harkanwal" style="width:auto;height:200px;border-radius:50%">
       <br>
       <br>
       <span>
         <strong>Harkanwal Singh</strong>
-        <br><a href="https://twitter.com/search?q=kamal_hothi">@kamal_hothi</a>
-        <br>Harkanwal is the founder of <a href="https://elementsdata.studio/">Elements Data Studio</a>. Previously, he was the head of data journalism at the New Zealand Herald. He is passionate about developing data visualisation for communication. 
+        <br><a href="https://twitter.com/search?q=kamal_hothi" target="blank">@kamal_hothi</a>
+        <br>Harkanwal is the founder of <a href="https://elementsdata.studio/" target="blank">Elements Data Studio</a>. Previously, he was the head of data journalism at the New Zealand Herald. He is passionate about developing data visualisation for communication. 
         <p>
-          He will share his ideas and experience on creating data visualisation to communicate research effectively to a general audience. 
+         He will share his ideas and experience on creating data visualisation to communicate research effectively to a general audience. 
       </span>
-    </td>
-
-    <td>
+      <br>
     </td>
   </tr>
 </table>
 
  </section>
+
+<hr>
+
+ <section id="sponsors"><div class="center" style="margin-top: 2em">
+  <center>
+    <h1>SPONSORS &amp CONTRIBUTORS</h2>
+      <img src="https://www.victoria.ac.nz/__data/assets/image/0007/286009/vuw-logo.jpg" alt="VUW" width="90%"><br>
+    <br>
+      <img src="https://www.nesi.org.nz/sites/default/files/NeSI_COL_rgb.jpg" alt="NeSI" width="18%"> &nbsp &nbsp &nbsp
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Publons_logo.png/1200px-Publons_logo.png" alt="publons" width="18%">&nbsp &nbsp &nbsp
+      <img src="https://www.govt.nz/assets/promos/Data2.govt.nz-promo.png" alt="datagovt" height="80%" width="18%">&nbsp &nbsp &nbsp'
+      <img src="fablabLogo.png" alt="fablabLogo" height="80%" width="14%">&nbsp &nbsp &nbsp &nbsp
+       <img src="https://scontent.fakl7-1.fna.fbcdn.net/v/t1.0-9/33540640_2115359355413304_4092905946764804096_o.jpg?_nc_cat=0&oh=119e48db97a57415d829a5b4a0f4fe14&oe=5BEC24F9" alt="VicUke" width="15%">
+      
+
+  </div>
+</section>  
+<hr>
+
 
     <section id="contact-us">
       <h1>Contact</h1>
