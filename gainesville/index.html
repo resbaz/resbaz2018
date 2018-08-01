@@ -124,7 +124,7 @@
     <hr/>
     <section id="venue">
       <h1>Venue</h1>
-      <p>This event will be held at the Informatics Institute and Marston Science Library, at the University of Florida in Gainesville, Florida.</p>
+      <p>This event will be held at the Informatics Institute, at the University of Florida in Gainesville, Florida.</p>
 
       <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
       
@@ -137,16 +137,21 @@
 		<tr id="firstrow"><th></th><th>Wednesday</th><th>Thursday</th><th>Friday</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>All Day</td><td class="regRow" colspan = 3>Registration</td></tr>
 		<tr>
 			<td>900am - 1130am</td>
-			<td colspan = 2>
+			<td class = "regRow">
 				<ul>
 				<li>Software Carpentry with Python</li>
 				<li>Data Carpentry with R</li>
 				</ul>
 			</td>
-			<td>Plenery Talks:
+			<td>
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+			<td class = "regRow">Plenery Talks:
 				<ul>
 				<li>TBD</li>
 				<li>TBD</li>
@@ -155,16 +160,23 @@
 		</tr>
 		<tr>
 			<td>1130am - 1230pm</td>
-			<td colspan = 2 rowspan = 2>Lunch</td>
+			<td rowspan = 2>Lunch</td>
+			<td rowspan = 2 class = "regRow">Lunch</td>
 			<td rowspan = 1>Lunch</td>
 		</tr>
 		<tr>
 			<td>1230am - 130pm</td>
-			<td rowspan = 2>Panel Discussion "Alternative Academic and Non-Academic Careers in Data Science""</td>
+			<td rowspan = 2 class = "regRow">Panel Discussion "Alternative Academic and Non-Academic Careers in Data Science""</td>
 		</tr>
 		<tr>
 			<td>130pm - 200pm</td>
-			<td rowspan = 2 colspan = 2>
+			<td rowspan = 2>
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+			<td rowspan = 2 class = "regRow">
 				<ul>
 				<li>Software Carpentry with Python</li>
 				<li>Data Carpentry with R</li>
@@ -172,7 +184,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>2pm - 430pm</td>
+			<td>200pm - 430pm</td>
 			<td>Tutorial Sessions:
 				<ul>
 				<li>Getting started with Shiny apps</li>
@@ -183,10 +195,10 @@
 			</td>
 		</tr>
 		<tr>
-			<td>6pm</td>
+			<td class = "regRow">600pm</td>
 			<td>R-Ladies Gainesville Social at First Magnitude Brewery (1220 SE Veitch St)</td>
 			<td>--</td>
-			<td>Celebrating a successful event at Cypress and Grove Brewery (1001 NW 4th St)</td>
+			<td class = "regRow">Celebrating a successful event at Cypress and Grove Brewery (1001 NW 4th St)</td>
 		</tr>
 	</tbody>
     </table>
