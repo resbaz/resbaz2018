@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" src="../css/style.css"/>
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../components/contact-icons.html">
+  <link rel="import" href="../components/csv-table.html">
+  <link rel="import" href="../components/embedded-google-sheet.html">
+  <link rel="import" href="../components/expandable-heading.html">
+  <link rel="import" href="../components/remote-markdown.html">
+  <link rel="import" href="../components/simple-columns.html">
+  <link rel="import" href="../components/venue-map.html">
+  <link rel="import" href="../bower_components/paper-button/paper-button.html">
+  <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="../bower_components/app-layout/app-layout.html">
+  <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+
+  <link rel="import" href="../components/common-style.html">
+  <link rel="import" href="../components/resbaz-header.html">
+  <style is="custom-style">
+	resbaz-header {
+		--header-height: 50vh;
+		--header-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(ufcarpentry.jpg);
+	}
+	.leaflet-overlay-pane g {
+		stroke:"#cc0000";
+		fill: "#000099";
+		stroke-width:"2";
+		fill-opacity:"0.8"
+	}
+  
+	#schedule > table {
+		border-collapse: collapse;
+	}
+
+	#schedule>table td, #schedule>table th {
+		border-top: 1px solid #f2f2f2;
+		padding: 8px;
+	}
+
+	#firstrow {
+		background-color: #2c3e50;
+		color: white;
+		text-align: left;
+	}
+
+	#firstrow th:first-of-type { width:110px; }
+
+	#schedule>table .liOne {padding-bottom:0.5em}
+
+	.regRow, .ThursLunch, .ThursWrap, .OSFW, .FriPMWorkshops, .FriDrinks { background-color:#f2f2f2; }
+
+	.OSFW { vertical-align:top; }
+
+	.navlinks {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold
+	}
+	
+	.reg-button {
+		-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		box-shadow:inset 0px 1px 0px 0px #fce2c1;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ED730E), color-stop(1, #ff8c00) );
+		background:-moz-linear-gradient( center top, #ED730E 5%, #ff8c00 100% );
+		background-color:#ED730E;
+		border-radius: 20px;
+		text-indent:0px;
+		border:1px solid #eeb44f;
+		display:inline-block;
+		color:#ffffff;
+		font-size:17px;
+		font-weight:bold;
+		font-style:normal;
+		height:41px;
+		line-height:41px;
+		width:100px;
+		text-decoration:none;
+		text-align:center;
+		text-shadow:1px 1px 0px #cc9f52;
+	}
+	.reg-button:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff8c00), color-stop(1, #ED730E) );
+		background:-moz-linear-gradient( center top, #ff8c00 5%, #ED730E 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8c00', endColorstr='#ED730E');
+		background-color:#ff8c00;
+	}.reg-button:active {
+		position:relative;
+		top:1px;
+	}
+
+  </style>
+</head>
+<body unresolved>
+  <resbaz-header title="ResBaz Gainesville">
+    <h1>Gainesville</h1>
+    <h2>August 15-17, 2018</h2>
+  </resbaz-header>
+  <article>
+    <section id="links">
+	    <ul class="navlinks">
+		    <li><a href="#venue">Venue</a></li>
+		    <li><a href="#schedule">Schedule</a></li>
+		    <li><a href="#registration">Register</a></li>
+		    <li><a href="#contact">Contact</a></li>
+	    </ul>
+    </section
+    <section id="about">
+      <remote-markdown url="about.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="venue">
+      <h1>Venue</h1>
+      <p>This event will be held at the Informatics Institute / Computer Science and Engineering Building, at the University of Florida in Gainesville, Florida.</p>
+
+      <venue-map geojson-url="venue.geojson" zoom="17"></venue-map>
+      
+    </section>
+    <hr/>
+    <section id="schedule">
+    <h1>Schedule of Events</h1>
+    <h2>Wednesday and Thursday (UFII Classroom and CSE E231)</h2>
+    
+    Full day workshops:
+    <ul>
+    	<li><a href = "https://punama.github.io/2018-08-15-SWC/">Software Carpentry with Python</a> (CSE E231)<li>
+    	<li><a href = "https://picardis.github.io/2018-08-15-ufii/">Data Carpentry with R</a> (UFII Classroom)</li>
+    </ul>
+    
+    <table class="table" style="border-spacing:0.3em">
+	<thead>
+		<tr id="firstrow"><th></th><th>Wednesday</th><th>Thursday</th></tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>900am - 1130am</td>
+			<td class = "regRow">
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class = "regRow">1130am - 1230pm</td>
+			<td>Lunch 1</td>
+			<td class = "regRow">Lunch 1</td>
+		</tr>
+		<tr>
+			<td>1230am - 130pm</td>
+			<td class = "regRow">Lunch 2</td>
+			<td>Lunch 2</td>
+		</tr>
+		<tr>
+			<td class = "regRow">130pm - 430pm</td>
+			<td>
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+			<td class = "regRow">
+				<ul>
+				<li>Software Carpentry with Python</li>
+				<li>Data Carpentry with R</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>600pm</td>
+			<td class = "regRow" style="width:2*">R-Ladies Gainesville Social at First Magnitude Brewery (1220 SE Veitch St)</td>
+			<td>--</td>
+		</tr>
+	</tbody>
+    </table>
+    
+    <h2>Friday (CSE E119)</h2>
+      
+      <table class="table" style="border-spacing:0.3em">
+	<thead>
+		<tr id="firstrow"><th></th><th>Friday</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>900am - 1130am</td><td><strong>Plenary Talks</strong></td></tr>
+		<tr>
+			<td>900am - 930am</td>
+			<td class = "regRow"><em>Kathleen Sohar</em>, Director, Collaboratory for Women Innovators</td>
+		</tr>
+		<tr>
+			<td class = "regRow">930am - 1000am</td>
+			<td><em>Francois Michonneau</em>, Curriculum Development Lead, The Carpentries</td>
+		</tr>
+		<tr>
+			<td>1000am - 1030am</td>
+			<td class = "regRow">Coffee Break</td>
+		</tr>
+		<tr>
+			<td class = "regRow">1030am - 1100am</td>
+			<td><em>Plato Smith</em>, Data Management Librarian, University of Florida</td>
+		</tr>
+		<tr>
+			<td>1100am - 1130am</td>
+			<td class = "regRow"><em>Juniper Simonis</em>, Founder & Lead Scientist, DapperStats</td>
+		</tr>
+		<tr>
+			<td class = "regRow">1130am - 1230pm</td>
+			<td>Lunch</td>
+		</tr>
+		<tr>
+			<td>1230am - 200pm</td>
+			<td class = "regRow">
+			<strong>Panel Discussion - Alternative Academic and Non-Academic Careers in Data Science</strong> (moderated by Kristina Riemer)<br />
+			Panelists: 
+			<ul>
+				<li><em>Christy Shorey</em>, University of Florida Institutional Repository</li>
+				<li><em>Dan Maxwell</em>, University of Florida Libraries</li>
+				<li><em>Kari Jordan</em>, The Carpentries</li>
+				<li><em>Zannah Marsh</em>, Mozilla</li>
+				<li><em>Matt Gitzendanner, Florida Museum of Natural History</li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td class = "regRow">220pm - 430pm</td>
+			<td><strong>Breakout Sessions</strong>
+				<ul>
+				<li>UFII Classroom -- <em>A crash course on writing for loops and functions in R</em></li>
+				<li>UFII Conference Room -- <em>Creating interactive coding sessions in a web browser with Binder and GitHub</em></li>
+				<li>CSE E220 -- <em>Demystifying dates in R with the lubridate package</em></li>
+				<li>CSE E221 -- <em>Make your own website with a blog all in R!</em></li>
+				<li>CSE E119 -- <em>An Introduction to Reproducible Research: version control, sharing, publishing and archiving</em></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>600pm</td>
+			<td class = "regRow" style="width:2*">Celebrating a successful event at Cypress and Grove Brewery (1001 NW 4th St)</td>
+		</tr>
+	</tbody>
+    </table>
+
+    </section>
+    <hr/>
+    <section id="registration">
+      <remote-markdown url="registration.md">
+        <div class="markdown-html"></div>
+      </remote-markdown>
+    </section>
+    <hr/>
+    <section id="contact">
+      <h1>Contact</h1>
+      <div class="center">
+        <contact-icons email="ufcarpentry@gmail.com" twitter="UFCarpentries"</contact-icons>
+      </div>
+    </section>
+  </article>
+</body>
+</html>

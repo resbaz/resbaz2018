@@ -1,0 +1,15 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+		{
+            "type":"Feature",
+            "geometry": {
+                    "type":"Point",
+                    "coordinates": [-82.3440, 29.6482]
+            },
+            "properties": {
+                        "details": "Informatics Institute - University of Florida, Gainesville"
+            }
+        }
+    ]
+}
